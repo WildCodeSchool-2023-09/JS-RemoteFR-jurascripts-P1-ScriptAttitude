@@ -1,1 +1,1 @@
-# JS-RemoteFR-jurascripts-P1-ScriptAttitude
+# On est les meilleur let goo.
