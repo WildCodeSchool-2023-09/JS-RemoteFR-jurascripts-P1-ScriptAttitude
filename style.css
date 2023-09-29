@@ -101,7 +101,7 @@ section h1 {
 
 .container_primary_selection {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 #carnivore {
@@ -126,41 +126,45 @@ section h1 {
 
 /* Prasanna */
 
+.container_second_selection {
+  font-size: 1rem;
+  font-family: var(--font-family);
+  margin-inline: 27rem;
+}
+
 fieldset {
-  margin: 2rem;
+  margin: 1.5rem;
   display: flex;
   text-align: left;
   border-color: var(--border-color);
   background-color: var(--primaryColor);
   box-shadow: var(--boxShadow);
   border-radius: var(--border-radius);
-
-}
-
-.container_second_selection {
-  font-size: 1rem;
-  font-family: var(--font-family);
-  margin-inline: 27rem;
-  
+  justify-content: space-evenly;
+  width: 95vh;
 }
 
 .Categorie_checkbox {
   font-family: var(--font-family);
-  display: grid ;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 1rem;
-  gap: 1rem;
 }
 
-.c_card {
+.container_card {
   display: flex;
-  flex-direction: row;
-  width: 60%;
-  align-items: flex-start;
-  margin: auto;
+  flex-direction: column;
+  padding: 0.5rem;
+  border-radius: var(--border-radius);
+  border: #000 solid 3px;
 }
 
+.container_card_terrestre {
+  display: flex;
+  width: 95vh;
+}
 
+.c_card img {
+  width: 20vh;
+  height: 18vh;
+}
 
 /* xavier */
 
