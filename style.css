@@ -10,6 +10,7 @@
   --border-radius-bouton: 2rem;
   --text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   --boxShadowtext: 2px 0px 13px rgba(0, 0, 0, 0.97);
+  --background-color-cads: rgb(212, 248, 210);
 }
 
 * {
@@ -227,7 +228,6 @@ fieldset {
   padding: 0.5rem;
   margin: auto;
   border-radius: var(--border-radius);
-
   width: 80%;
 }
 
@@ -243,7 +243,7 @@ fieldset {
   box-shadow: var(--boxShadow);
   padding: 0.2rem;
   width: calc(100% / 3);
-  background-color: rgb(212, 248, 210);
+  background-color: var(--background-color-cads);
   height: 40vh;
 }
 
@@ -256,11 +256,9 @@ fieldset {
 }
 
 .c_card p {
-  background-color: var(--primaryColor);
   font-family: var(--font-family);
   font-size: 1rem;
   padding: 1%;
-  background-color: rgb(212, 248, 210);
 }
 
 .c_card p i {
@@ -302,25 +300,75 @@ fieldset {
 /* xavier */
 
 .contenair_anecdote {
-  background-color: var(--primaryColor);
-  margin: 5rem;
-  padding: 2%;
+  display: flex;
+
+  width: 80%;
+  flex-direction: column;
   font-family: var(--font-family);
-  font-size: 2rem;
-  border-radius: var(--border-radius);
+  border-radius: 1rem;
+  /* border: rgb(0, 0, 0) solid 5px;
+  background-color: var(--background-color-cads);
+  box-shadow: var(--boxShadow);
+  border-radius: var(--border-radius); */
+  margin: auto;
+  gap: 1rem;
 }
-.anecdote_l h2 {
+
+.contenair_anecdote h1 {
+  font-size: 3em;
+  max-width: 20vw;
+  min-width: 22vw;
+
+  margin-bottom: -1.6%;
+  margin-left: -0.3%;
+  padding: 0.5rem;
+  border-radius: var(--border-radius);
+  background-color: var(--background-color-cads);
+  border: rgb(0, 0, 0) solid 5px;
+  box-shadow: var(--boxShadow);
+}
+.contenair_anecdote img {
+  padding: 0.5rem;
+  border-radius: var(--border-radius);
+  border: rgb(0, 0, 0) solid 6px;
+  width: 150px;
+}
+
+.anecdote_l {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  box-shadow: var(--boxShadow);
+  border-radius: var(--border-radius);
+  background-color: var(--background-color-cads);
+  border: rgb(0, 0, 0) solid 5px;
+}
+.anecdote_l_text h2 {
+  padding: 0.5rem;
   text-align: left;
   text-decoration: underline;
 }
-.contenair_anecdote p {
+.anecdote_l_text p {
   padding: 1rem;
   font-style: italic;
 }
-
-.anecdote_l img {
-  width: 5%;
-  float: left;
+.anecdote_r {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 1rem;
+  box-shadow: var(--boxShadow);
+  border-radius: var(--border-radius);
+  background-color: var(--background-color-cads);
+  border: rgb(0, 0, 0) solid 5px;
+}
+.anecdote_r_text h2 {
+  padding: 0.5rem;
+  text-align: left;
+  text-decoration: underline;
+}
+.anecdote_r_text p {
+  padding: 1rem;
+  font-style: italic;
 }
 
 /* ------------------- Footer / Alexandre ------------------- */
