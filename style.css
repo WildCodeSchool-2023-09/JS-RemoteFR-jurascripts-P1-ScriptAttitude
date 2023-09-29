@@ -37,6 +37,15 @@ body {
   grid-row: 1;
 }
 
+#container_img_logo {
+  display: flex;
+  justify-content: center;
+}
+
+#img_logo {
+  height: 10rem;
+}
+
 .portfolio {
   grid-column: 6/7;
 }
@@ -77,7 +86,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Modification de la section de la barre de recherche */
+/* --Modification de la section de la barre de recherche / Alexandre-- */
 
 section h1 {
   font-size: 2rem;
@@ -101,7 +110,7 @@ section h1 {
   text-shadow: var(--text-shadow);
 }
 
-/* / --Modification de la section de la première sélection alex-- */
+/* --Modification de la section de la première sélection / Alexandre-- */
 
 .container_primary_selection {
   display: flex;
@@ -183,6 +192,7 @@ fieldset {
   box-shadow: var(--boxShadow);
   width: calc(90% / 4);
 }
+
 .c_card img {
   width: 20vh;
   height: 18vh;
@@ -239,4 +249,37 @@ fieldset {
 .anecdote_l img {
   width: 20%;
   height: auto;
+}
+
+/* ------------------- Footer / Alexandre ------------------- */
+
+footer {
+  background-color: var(--primaryColor);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#icon_footer {
+  margin-left: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+#icon_logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-right: 1rem;
+}
+
+footer ul li {
+  list-style: none;
 }
