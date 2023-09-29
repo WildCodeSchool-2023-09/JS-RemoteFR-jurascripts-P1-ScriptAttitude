@@ -231,12 +231,13 @@ fieldset {
 
 .contenair_anecdote {
   background-color: var(--primaryColor);
-  display: flex;
-  margin: 0.5rem;
-  padding: 1%;
+  margin: 5rem;
+  padding: 2%;
+  font-family: var(--font-family);
+  font-size: 2rem;
+  border-radius: var(--border-radius);
 }
-
-.anecdote_l img {
-  width: 20%;
-  height: auto;
+.contenair_anecdote p {
+  padding: 1rem;
+  font-style: italic;
 }
