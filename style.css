@@ -147,13 +147,14 @@ section h1 {
 }
 
 #carnivore {
-  padding: 1rem 13rem 1rem 13rem;
+  padding: 1rem 9rem 1rem 9rem;
   border-radius: var(--border-radius-bouton);
   background-color: var(--primaryColor);
   box-shadow: var(--boxShadow);
   font-family: var(--font-family);
   border-color: var(--border-color);
   text-shadow: var(--text-shadow);
+  font-size: 2em;
 }
 
 #herbivore {
@@ -164,6 +165,7 @@ section h1 {
   font-family: var(--font-family);
   border-color: var(--border-color);
   text-shadow: var(--text-shadow);
+  font-size: 2em;
 }
 
 /* Prasanna */
