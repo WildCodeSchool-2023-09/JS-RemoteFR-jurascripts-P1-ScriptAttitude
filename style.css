@@ -292,16 +292,21 @@ fieldset {
   font-family: var(--font-family);
   font-size: 2rem;
   border-radius: var(--border-radius);
+  
 }
-
+.anecdote_l h2 {
+  text-align: left;
+  text-decoration: underline;
+}
 .contenair_anecdote p {
   padding: 1rem;
   font-style: italic;
 }
 
 .anecdote_l img {
-  width: 20%;
-  height: auto;
+  width: 5%;
+  float:left;
+  
 }
 
 /* ------------------- Footer / Alexandre ------------------- */
