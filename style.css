@@ -159,6 +159,7 @@ fieldset {
 .container_card_terrestre {
   display: flex;
   width: 95vh;
+  gap: 5rem;
 }
 
 .c_card img {
@@ -166,12 +167,22 @@ fieldset {
   height: 18vh;
 }
 
+.c_card p {
+  background-color: var(--primaryColor);
+  font-family: var(--font-family);
+  font-size: 1rem;
+  padding: 1%;
+}
+
+.c_card p i {
+  font-style: italic;
+}
 /* xavier */
 
 .contenair_anecdote {
-  background-color: rgb(14, 161, 27);
+  background-color: var(--primaryColor);
   display: flex;
-  margin: 5%;
+  margin: 0.5rem;
   padding: 1%;
 }
 
