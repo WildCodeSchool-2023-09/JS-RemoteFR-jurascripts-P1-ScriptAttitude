@@ -51,7 +51,7 @@ body {
   position: absolute;
   z-index: 1;
   top: 0vh;
-  left: 36%;
+  left: 40%;
 }
 
 .portfolio {
@@ -308,7 +308,6 @@ fieldset {
   font-family: var(--font-family);
   font-size: 2rem;
   border-radius: var(--border-radius);
-  
 }
 .anecdote_l h2 {
   text-align: left;
@@ -321,8 +320,7 @@ fieldset {
 
 .anecdote_l img {
   width: 5%;
-  float:left;
-  
+  float: left;
 }
 
 /* ------------------- Footer / Alexandre ------------------- */
