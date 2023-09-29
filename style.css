@@ -301,7 +301,6 @@ fieldset {
 
 .contenair_anecdote {
   display: flex;
-
   width: 80%;
   flex-direction: column;
   font-family: var(--font-family);
@@ -312,13 +311,13 @@ fieldset {
   border-radius: var(--border-radius); */
   margin: auto;
   gap: 1rem;
+  margin-bottom: 2rem;
 }
 
 .contenair_anecdote h1 {
-  font-size: 3em;
+  font-size: 2em;
   max-width: 20vw;
   min-width: 22vw;
-
   margin-bottom: -1.6%;
   margin-left: -0.3%;
   padding: 0.5rem;
