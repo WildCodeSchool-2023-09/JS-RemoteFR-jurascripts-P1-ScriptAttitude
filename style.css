@@ -5,8 +5,9 @@
   --secondColor: #041a26;
   --boxShadow: 2px 0px 13px rgba(34, 255, 0, 0.97);
   --font-family: "Kavoon", sans-serif;
-  --border-color: #000;
+  --border: #000 solid 3px;
   --border-radius: 10px;
+  --border-radius-bouton: 2rem;
   --text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 * {
@@ -49,8 +50,7 @@ nav ul li {
   border-radius: var(--border-radius);
   width: 11.75rem;
   height: 3.625rem;
-  stroke-width: 5px;
-  stroke: #031621;
+  border: var(--border);
   justify-content: center;
   align-items: center;
   background: rgb(0, 255, 12);
@@ -106,7 +106,7 @@ section h1 {
 
 #carnivore {
   padding: 1rem 13rem 1rem 13rem;
-  border-radius: 2rem;
+  border-radius: var(--border-radius-bouton);
   background-color: var(--primaryColor);
   box-shadow: var(--boxShadow);
   font-family: var(--font-family);
@@ -116,7 +116,7 @@ section h1 {
 
 #herbivore {
   padding: 1rem 13rem 1rem 13rem;
-  border-radius: 2rem;
+  border-radius: var(--border-radius-bouton);
   background-color: var(--primaryColor);
   box-shadow: var(--boxShadow);
   font-family: var(--font-family);
@@ -153,7 +153,8 @@ fieldset {
   flex-direction: column;
   padding: 0.5rem;
   border-radius: var(--border-radius);
-  border: #000 solid 3px;
+  border: var(--border);
+  box-shadow: var(--boxShadow);
 }
 
 .container_card_terrestre {
@@ -161,6 +162,12 @@ fieldset {
   width: 95vh;
 }
 
+.c_card {
+  border: var(--border);
+  border-radius: 1rem;
+  box-shadow: var(--boxShadow);
+  width: calc(90% / 4);
+}
 .c_card img {
   width: 20vh;
   height: 18vh;
