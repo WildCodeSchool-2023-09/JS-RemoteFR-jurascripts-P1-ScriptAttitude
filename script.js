@@ -14,7 +14,9 @@ const filtrableCardsTerrestre = document.querySelectorAll(
 const filtrableCardsAquatique = document.querySelectorAll(
   ".container_card_aquatique"
 );
-const filtrableCardsVolant = document.querySelectorAll("container_card_volant");
+const filtrableCardsVolant = document.querySelectorAll(
+  ".container_card_volant"
+);
 
 // definir un fitre card en funtion
 const filterCards = (e) => {

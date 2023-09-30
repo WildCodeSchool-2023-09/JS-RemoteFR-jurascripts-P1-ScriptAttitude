@@ -280,7 +280,7 @@ section.container_card_terrestre.hide {
 section.container_card_aquatique.hide {
   display: none;
 }
-section.container_card_terrestre.hide {
+section.container_card_volant.hide {
   display: none;
 }
 
