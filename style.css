@@ -23,7 +23,7 @@ body {
   background-color: var(--secondColor);
 }
 
-/* barre nav */
+/* ------------------barre nav --------------------------*/
 .container_menu {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -41,7 +41,14 @@ body {
   grid-column: 1/2;
   grid-row: 1;
 }
+.portfolio {
+  grid-column: 6/7;
+}
 
+.propo {
+  grid-column: 7/8;
+}
+/* --------------------logo ------------------------------*/
 #container_img_logo {
   display: flex;
   justify-content: center;
@@ -55,14 +62,7 @@ body {
   left: 40%;
 }
 
-.portfolio {
-  grid-column: 6/7;
-}
-
-.propo {
-  grid-column: 7/8;
-}
-
+/* ----------------------------login et forum ------------------------------*/
 .icon_F_L {
   display: flex;
   justify-content: space-between;
@@ -82,7 +82,7 @@ body {
   top: 11%;
   left: 2%;
 }
-
+/*---------------------- nav-------------------------------- */
 nav ul li {
   display: flex;
   list-style-type: none;
@@ -122,7 +122,7 @@ a:hover {
   height: 40vh;
   z-index: 0;
 }
-
+/* -----------------------------h1 dinosaure_list------------------------------ */
 .container_dinosaure_list h1 {
   font-size: 3rem;
   color: var(--primaryColor);
