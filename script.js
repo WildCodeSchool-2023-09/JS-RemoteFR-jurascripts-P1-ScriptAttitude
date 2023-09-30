@@ -42,7 +42,7 @@ const filterCards = (e) => {
   });
 };
 
-const filterCardsS = (e) => {
+const filterCardsCategorie = (e) => {
   document.querySelector(".active").classList.remove("active");
   e.target.classList.add("active");
   console.log(e.target);
@@ -72,5 +72,5 @@ const filterCardsS = (e) => {
 
 selectButton.forEach((button) => button.addEventListener("click", filterCards));
 selectCheckbox.forEach((Checkbox) =>
-  Checkbox.addEventListener("click", filterCardsS)
+  Checkbox.addEventListener("click", filterCardsCategorie)
 );
