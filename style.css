@@ -770,7 +770,7 @@ footer ul li {
   background: hsl(0, 0%, 95%);
 }
 
-/* loading ... prasanna */
+/* loading ... prasanna
 
 .loader {
   position: absolute;
@@ -804,7 +804,7 @@ footer ul li {
     color : var(--primaryColor);
     text-shadow : 0 0 7px #f3f3f3;
   }
-} */
+}
 
 .lettre:nth-child(1) {
   animation-delay: 0.1s;
@@ -842,5 +842,5 @@ footer ul li {
   opacity: 0;
   transition: opacity 3s ease-out;
 }
-
+/*
 /* slider */
