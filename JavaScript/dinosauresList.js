@@ -7,14 +7,7 @@ const dinosauresList = [
     image: "src/Dinosaures/allosaurus.jpeg",
     diet: "carnivore",
     attribut: "terrestre",
-  },
-  {
-    name: "T-rex",
-    surname: "Benoît",
-    description: "",
-    image: "src/Dinosaures/t-rex.jpeg",
-    diet: "carnivore",
-    attribut: "terrestre",
+    cri : "../asset/sound_Allosaurus.mp3"
   },
   {
     name: "Ankylosaurus",
@@ -23,6 +16,7 @@ const dinosauresList = [
     image: "src/Dinosaures/ankylosaurus.png",
     diet: "herbivore",
     attribut: "terrestre",
+    cri : "../asset/Ankylosaurus-sounds.mp3"
   },
   {
     name: "Anhanguera",
@@ -31,6 +25,7 @@ const dinosauresList = [
     image: "src/Dinosaures/anhanguera.jpg",
     diet: "carnivore",
     attribut: "volant",
+    cri : "../asset/anhanguera_sounds.mp3"
   },
   {
     name: "Cératosaurus",
@@ -39,6 +34,7 @@ const dinosauresList = [
     image: "src/Dinosaures/Ceratosaurus.jpeg",
     diet: "carnivore",
     attribut: "terrestre)",
+    cri : "../asset/Ceratosaurus_sounds.mp3"
   },
   {
     name: "Cryptoclidus",
@@ -47,6 +43,7 @@ const dinosauresList = [
     image: "src/Dinosaures/cryptoclidus.png",
     diet: "herbivore",
     attribut: "aquatique",
+    cri : "../asset/Cryptocleidus-sound.mp3"
   },
   {
     name: "Centrosaure",
@@ -55,14 +52,16 @@ const dinosauresList = [
     image: "src/Dinosaures/Centrosaurus.png",
     diet: "herbivore",
     attribut: "terrestre",
+    cri : "../asset/centrosaurus-sound.mp3"
   },
   {
     name: "Dimorphodon",
     surname: "Didier",
     description: "",
-    image: "",
+    image: "../asset/dimorphodon.png",
     diet: "carnivore",
     attribut: "volant",
+    cri : "../asset/Dimorphodon_sounds.mp3"
   },
   {
     name: "Fabrosaurus",
@@ -71,6 +70,7 @@ const dinosauresList = [
     image: "src/Dinosaures/fabrosaurus.png",
     diet: "herbivore",
     attribut: "terrestre",
+    cri : "../asset/Fabrosaurus_sounds.mp3"
   },
   {
     name: "Jainosaurus",
@@ -79,6 +79,7 @@ const dinosauresList = [
     image: "src/Dinosaures/Jainosaurus.png",
     diet: "herbivore",
     attribut: "terrestre",
+    cri : "../asset/Jainosaurus_sounds.mp3"
   },
   {
     name: "Jobaria",
@@ -87,6 +88,7 @@ const dinosauresList = [
     image: "src/Dinosaures/jobaria.png",
     diet: "herbivore",
     attribut: "terrestre",
+    cri : "../asset/Jobaria_sound.mp3"
   },
   {
     name: "Kronosaurus",
@@ -95,6 +97,7 @@ const dinosauresList = [
     image: "src/Dinosaures/Kronosaurus.png",
     diet: "carnivore",
     attribut: "aquatique",
+    cri : "../asset/Kronosaurus-sounds.mp3"
   },
   {
     name: "Mosasaurus",
@@ -103,14 +106,7 @@ const dinosauresList = [
     image: "src/Dinosaures/mosasaurus.png",
     diet: "carnivore",
     attribut: "aquatique",
-  },
-  {
-    name: "Spinosaure",
-    surname: "Nelson",
-    description: "",
-    image: "src/Dinosaures/Spinosaurus.png",
-    diet: "carnivore",
-    attribut: "terrestre",
+    cri : "../asset/Mosasaurus-sound.mp3"
   },
   {
     name: "Espèce éteinte",
@@ -119,6 +115,7 @@ const dinosauresList = [
     image: "src/Dinosaures/squelette_de_dinosaure.png",
     diet: "herbivore",
     attribut: "terrestre",
+    cri : "../asset/.mp3"
   },
   {
     name: "Protocératops",
@@ -127,6 +124,7 @@ const dinosauresList = [
     image: "src/Dinosaures/Protoceratops.jpg",
     diet: "herbivore",
     attribut: "terrestre",
+    cri : "../asset/Protoceratops-sounds.mp3"
   },
   {
     name: "Ptéranodon",
@@ -135,6 +133,16 @@ const dinosauresList = [
     image: "src/Dinosaures/Pteranodon.jpg",
     diet: "carnivore",
     attribut: "volant",
+    cri : "../asset/Pteranodon_sound.mp3"
+  },
+  {
+    name: "Spinosaure",
+    surname: "Nelson",
+    description: "",
+    image: "src/Dinosaures/Spinosaurus.png",
+    diet: "carnivore",
+    attribut: "terrestre",
+    cri : "../asset/Spinosaurus-sounds.mp3"
   },
   {
     name: "Stegosaurus",
@@ -143,30 +151,43 @@ const dinosauresList = [
     image: "src/Dinosaures/stegosaure.png",
     diet: "herbivore",
     attribut: "terrestre",
+    cri : "../asset/Stegosaurus_sounds.mp3"
   },
   {
     name: "Stenopterygius",
     surname: "Suzy",
     description: "",
-    image: "",
+    image: "../asset/Stenopterygius.png",
     diet: "carnivore",
     attribut: "aquatique",
+    cri : "../asset/Stenopterygius _sounds.mp3"
+  },
+  {
+    name: "T-Rex",
+    surname: "Benoît",
+    description: "The Boss",
+    image: "src/Dinosaures/t-rex.jpeg",
+    diet: "carnivore",
+    attribut: "terrestre",
+    cri : "../asset/T-rex_sound.mp3"
   },
   {
     name: "Vélociraptor",
     surname: "Valentin",
     description: "",
-    image: "",
+    image: "../asset/Velociraptor.png",
     diet: "carnivore",
     attribut: "terrestre",
+    cri : "../asset/Velociraptor_sounds.mp3"
   },
   {
     name: "Xiaosaurus",
     surname: "Xavier",
     description: "",
-    image: "",
+    image: "../asset/Xiaosaurus.png",
     diet: "herbivore",
     attribut: "terrestre",
+    cri : "../asset/Xiaosaurus_sounds.mp3"
   },
 ];
 export default dinosauresList;

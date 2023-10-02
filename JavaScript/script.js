@@ -49,10 +49,20 @@ const createDinosaureCard = () => {
           <p>Type: ${dinosauresList[i].attribut}</p>
           <p>Régime: ${dinosauresList[i].diet}</p>
           <p>Description: <i>"${dinosauresList[i].desc}"</i></p> <!--alexandre -->
-          
+          <p>Cri: <audio controls src="${dinosauresList[i].cri}"> </audio></p>
           </div>`);
       }
     }
   }
   dinoCards.innerHTML = dinoArray.join("");
 };
+
+// loading
+const loader = document.querySelector('.loader');
+
+window.addEventListener('load', () => {
+loader.classList.add('fondu-out');
+setTimeout(() => {
+  loader.classList.add('end-animation')
+}, 2000);
+})

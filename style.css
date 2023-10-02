@@ -770,7 +770,7 @@ footer ul li {
   background: hsl(0, 0%, 95%);
 }
 
-/* loading ... prasanna
+/* loading ... prasanna */
 
 .loader {
   position: absolute;
@@ -842,5 +842,8 @@ footer ul li {
   opacity: 0;
   transition: opacity 3s ease-out;
 }
-/*
-/* slider */
+
+.end-animation {
+  display: none;
+}
+/* audio youtube rexy montero merci */
