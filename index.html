@@ -53,7 +53,7 @@
   <main>
     <section class="container_dinosaure_list">
       <h1>Liste de Dinosaure</h1>
-      <section class="container_search_bar">
+      <section class="container_search_bar" id="search-list">
         <div id="search">
 	<svg viewBox="0 0 420 60" xmlns="http://www.w3.org/2000/svg">
 		<rect class="bar"/>
@@ -122,110 +122,10 @@
           </div>
         </fieldset>
       </section>
-      <section class="container_card">
-        <!-- ---------------------------------------Carnivore-------------------------------------->
-        <section class="container_card_carnivore" data-diet="carnivore">
-          <section class="container_card_terrestre" data-name="terrestre">
-            <div class="c_card">
-              <img class="imgAllosaurus" src="src/Dinosaures/allosaurus.jpeg" alt="un dinosaure" />
-              <p>Nom: Allosaurus</p>
-              <p>Type: Terrestre</p>
-              <p>Régime: Carnivore</p>
-              <p>Description: <i>"Le dinosaure Allosaurus (Allosaure) est un énorme Carnosaure, l’un des plus grands de
-                  la famille des Allosauridés,
-                  il était probablement le plus féroce prédateur du Jurassique."</i></p> <!--alexandre -->
-
-            </div>
-            <div class="c_card">
-              <img class="imgTrex" src="src/Dinosaures/t-rex.jpeg" alt="un dinosaure" />
-              <p>Nom: T-rex</p>
-              <p>Type: Terrestre</p>
-              <p>Régime: Carnivore</p>
-              <p>Description: <i>Le dinosaure Tyrannosaurus Rex, plus connu sous le nom de Tyrannosaure ou T rex,
-                  est incontestablement à la fois le plus célèbre des dinosaures,
-                  mais aussi celui qui a la réputation d’avoir été le plus féroce d’entre eux.</i></p>
-              <!--benoît -->
-            </div>
-            
-          </section>
-          <section class="container_card_aquatique" data-name="aquatique">
-
-  <div class="c_card">
-    <img class="imgCeratosaurus" src="src/Dinosaures/Ceratosaurus.jpeg" alt="un dinosaure" />
-    <p>Nom: Ceratosaurus</p>
-    <p>Type: aquatique</p>
-    <p>Régime: carnivore</p>
-    <p>Description: <i>"Cératosaurus était un dinosaure carnivore bipède d’Amérique du Nord qui vivait au
-      Jurassique supérieur.
-      Des fossiles de Cératosaurus sont parfois découverts à côté de ceux du dinosaure Allosaurus."</i></p>
-      <!--calypso -->
-    </div>
-  </section>
-  <section class="container_card_volant" data-name="volant">
-
-  <div class="c_card">
-    <img class="imgCeratosaurus" src="src/Dinosaures/Ceratosaurus.jpeg" alt="un dinosaure" />
-    <p>Nom: Ceratosaurus</p>
-    <p>Type: volant</p>
-    <p>Régime: carnivore</p>
-    <p>Description: <i>"Cératosaurus était un dinosaure carnivore bipède d’Amérique du Nord qui vivait au
-      Jurassique supérieur.
-      Des fossiles de Cératosaurus sont parfois découverts à côté de ceux du dinosaure Allosaurus."</i></p>
-      <!--calypso -->
-    </div>
-  </section>
-        </section>
-    <section class="container_card_herbivore" data-diet="herbivore">
-    <section class="container_card_terrestre" data-name="terrestre">
-
-  <div class="c_card">
-    <img class="imgCeratosaurus" src="src/Dinosaures/Ceratosaurus.jpeg" alt="un dinosaure" />
-    <p>Nom: Ceratosaurus</p>
-    <p>Type: Terrestre</p>
-    <p>Régime: herbivore</p>
-    <p>Description: <i>"Cératosaurus était un dinosaure carnivore bipède d’Amérique du Nord qui vivait au
-      Jurassique supérieur.
-      Des fossiles de Cératosaurus sont parfois découverts à côté de ceux du dinosaure Allosaurus."</i></p>
-      <!--calypso -->
-    </div>
-    <div class="c_card">
-    <img class="imgCeratosaurus" src="src/Dinosaures/Ceratosaurus.jpeg" alt="un dinosaure" />
-    <p>Nom: Ceratosaurus</p>
-    <p>Type: Terrestre</p>
-    <p>Régime: herbivore</p>
-    <p>Description: <i>"Cératosaurus était un dinosaure carnivore bipède d’Amérique du Nord qui vivait au
-      Jurassique supérieur.
-      Des fossiles de Cératosaurus sont parfois découverts à côté de ceux du dinosaure Allosaurus."</i></p>
-      <!--calypso -->
-    </div>
-  </section>
-  <section class="container_card_aquatique" data-name="aquatique">
-
-  <div class="c_card">
-    <img class="imgCeratosaurus" src="src/Dinosaures/Ceratosaurus.jpeg" alt="un dinosaure" />
-    <p>Nom: Ceratosaurus</p>
-    <p>Type: aquatique</p>
-    <p>Régime: herbivore</p>
-    <p>Description: <i>"Cératosaurus était un dinosaure carnivore bipède d’Amérique du Nord qui vivait au
-      Jurassique supérieur.
-      Des fossiles de Cératosaurus sont parfois découverts à côté de ceux du dinosaure Allosaurus."</i></p>
-      <!--calypso -->
-    </div>
-  </section>
-  <section class="container_card_volant" data-name="volant">
-
-  <div class="c_card">
-    <img class="imgCeratosaurus" src="src/Dinosaures/Ceratosaurus.jpeg" alt="un dinosaure" />
-    <p>Nom: Ceratosaurus</p>
-    <p>Type: volant</p>
-    <p>Régime: herbivore</p>
-    <p>Description: <i>"Cératosaurus était un dinosaure carnivore bipède d’Amérique du Nord qui vivait au
-      Jurassique supérieur.
-      Des fossiles de Cératosaurus sont parfois découverts à côté de ceux du dinosaure Allosaurus."</i></p>
-      <!--calypso -->
-    </div>
-  </section>
-          </section>
+      
+      <section class="container_card" id="container_card">
+        <!-- ---------------------------------------card-------------------------------------->
+        
         <!---------------------------------------------NAV_CARD----------------------------------------------->
         
       </section>
@@ -291,7 +191,7 @@
       <li>Xavier</li>
     </ul>
   </footer>
-  <script src="script.js"></script>
+  <script src="JavaScript/script.js" type="module"></script>
 </body>
 
 </html>
