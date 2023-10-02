@@ -74,3 +74,10 @@ selectButton.forEach((button) => button.addEventListener("click", filterCards));
 selectCheckbox.forEach((Checkbox) =>
   Checkbox.addEventListener("click", filterCardsCategorie)
 );
+
+// loading
+const loader = document.querySelector('.loader');
+
+window.addEventListener('load', () => {
+    loader.classList.add('fondu-out');
+})
