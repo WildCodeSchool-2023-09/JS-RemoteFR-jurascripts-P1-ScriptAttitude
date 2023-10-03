@@ -15,4 +15,4 @@ window.addEventListener("load", () => {
   }, 2000);
 });
 
-criVolume.volume = 1;
+criVolume.volume = 0.5;

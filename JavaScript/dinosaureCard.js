@@ -46,10 +46,11 @@ const createDinosaureCard = () => {
       ) {
         dinoArray.push(`<div class="c_card" draggable="false">
           <img class="imgAllosaurus" src="${dinosauresList[i].image}" alt="un dinosaure" />
-          <p>Nom: ${dinosauresList[i].name}  <audio id= "volume" controls  src="${dinosauresList[i].cri}"> </audio></p>
+          <p>Nom: ${dinosauresList[i].name} </p>
           <p>Type: ${dinosauresList[i].attribut}</p>
           <p>Régime: ${dinosauresList[i].diet}</p>
-          <p>Description: <i>"${dinosauresList[i].description}"</i></p> <!--alexandre -->
+          <p>Description: <i>"${dinosauresList[i].description}"</i></p> 
+           <audio id= "volume" controls  src="${dinosauresList[i].cri}"> </audio>
           
           </div>`);
       }
