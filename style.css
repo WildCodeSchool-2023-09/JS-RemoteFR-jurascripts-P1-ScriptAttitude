@@ -224,38 +224,26 @@ fieldset {
   padding-top: 0.1rem;
 }
 /* --------------------------------dino card -------------------------------------*/
-.container_card {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 0.5rem;
-  margin: auto;
+.cadreC {
+  padding: 0 15%;
+}
+
+.warpper {
+  max-width: 1100px;
+  width: 100%;
+}
+.wrapper .container_card {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc(97% / 3);
+  gap: 10px;
   border-radius: var(--border-radius);
-  width: 85%;
   overflow: hidden;
 }
 
-.container_card_carnivore {
-  display: flex;
-}
-.container_card_herbivore {
-  display: flex;
-}
-
-.container_card_terrestre {
-  display: flex;
-  gap: 1.5rem;
-  flex-wrap: nowrap;
-}
-.container_card_aquatique {
-  display: flex;
-  gap: 1.5rem;
-  flex-wrap: nowrap;
-}
-.container_card_volant {
-  display: flex;
-  gap: 1.5rem;
-  flex-wrap: nowrap;
+.container_card.dragging .c_card {
+  cursor: grab;
+  user-select: none;
 }
 
 .c_card {
@@ -263,9 +251,9 @@ fieldset {
   border-radius: 1rem;
   box-shadow: var(--boxShadow);
   padding: 0.2rem;
-  width: calc(100% / 3);
   background-color: var(--background-color-cads);
-  height: 40vh;
+  height: 30rem;
+  margin: 1rem 0;
 }
 
 .c_card img {
@@ -287,6 +275,22 @@ fieldset {
   font-size: 0.8rem;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
+}
+@media screen and (max-width: 900px) {
+  .wrapper .container_card {
+    grid-auto-columns: calc(97% / 2);
+  }
+  .cadreC {
+    padding: 0 10%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .wrapper .container_card {
+    grid-auto-columns: 100%;
+  }
+  .cadreC {
+    padding: 0 1%;
+  }
 }
 
 /* -------------------------audio-------------------- */
@@ -841,7 +845,7 @@ footer ul li {
 
 /* loading ... prasanna */
 
-.loader {
+/* .loader {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -913,5 +917,5 @@ footer ul li {
 
 .end-animation {
   display: none;
-}
+} */
 /* audio youtube rexy montero merci */

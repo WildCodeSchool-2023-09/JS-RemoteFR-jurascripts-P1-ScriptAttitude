@@ -1,71 +1,18 @@
-import dinosauresList from "./dinosauresList.js";
+import dinoCards from "./dinosaureCard.js";
+import dragging from "./slide.js";
+
 const criVolume = document.getElementById("audio");
-
-const dinoCards = document.getElementById("container_card");
-
-let search = "";
-let diet = "";
-let attribut = "";
-
-document.getElementById("search-list").addEventListener("input", (e) => {
-  search = e.target.value.toLowerCase();
-  createDinosaureCard();
-});
-
-document.getElementById("terrestre").addEventListener("change", (e) => {
-  attribut = e.target.checked;
-  createDinosaureCard();
-});
-document.getElementById("aquatique").addEventListener("change", (e) => {
-  attribut = e.target.checked;
-  createDinosaureCard();
-});
-document.getElementById("volant").addEventListener("change", (e) => {
-  attribut = e.target.checked;
-  createDinosaureCard();
-});
-document.getElementById("carnivore").addEventListener("click", (e) => {
-  diet = e.target.click;
-  createDinosaureCard();
-});
-document.getElementById("herbivore").addEventListener("click", (e) => {
-  diet = e.target.click;
-  createDinosaureCard();
-});
-const createDinosaureCard = () => {
-  const dinoArray = [];
-  for (let i = 0; i < dinosauresList.length; i++) {
-    if (
-      dinosauresList[i].diet === "carnivore" ||
-      dinosauresList[i].diet === "herbivore"
-    ) {
-      if (
-        dinosauresList[i].name.toLowerCase().includes(search) ||
-        dinosauresList[i].surname.toLowerCase().includes(search) ||
-        dinosauresList[i].attribut.toLowerCase().includes(search) ||
-        dinosauresList[i].diet.toLowerCase().includes(search)
-      ) {
-        dinoArray.push(`<div class="c_card">
-          <img class="imgAllosaurus" src="${dinosauresList[i].image}" alt="un dinosaure" />
-          <p>Nom: ${dinosauresList[i].name}  <audio id= "volume" controls  src="${dinosauresList[i].cri}"> </audio></p>
-          <p>Type: ${dinosauresList[i].attribut}</p>
-          <p>Régime: ${dinosauresList[i].diet}</p>
-          <p>Description: <i>"${dinosauresList[i].description}"</i></p> <!--alexandre -->
-          
-          </div>`);
-      }
-    }
-  }
-  dinoCards.innerHTML = dinoArray.join("");
-};
-
-// loading
 const loader = document.querySelector(".loader");
 
+dinoCards();
+
+// loading
 window.addEventListener("load", () => {
   loader.classList.add("fondu-out");
   setTimeout(() => {
     loader.classList.add("end-animation");
   }, 2000);
 });
+
 criVolume.volume = 0.1;
+dragging();
