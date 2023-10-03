@@ -296,6 +296,7 @@ audio {
   height: 1rem;
   margin-left: 1rem;
   border-radius: var(--border-radius-bouton);
+  box-shadow: var(--boxShadow);
 }
 audio::-webkit-media-controls-play-button {
   padding-left: 1rem;
