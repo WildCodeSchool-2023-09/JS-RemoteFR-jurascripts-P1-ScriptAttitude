@@ -12,9 +12,11 @@
   --text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   --boxShadowtext: 2px 0px 13px rgba(0, 0, 0, 0.97);
   --background-color-cads: rgb(212, 248, 210);
-  --linear-gradient: linear-gradient(160deg,
-      #00ad12 35%,
-      rgba(212, 248, 210) 100%);
+  --linear-gradient: linear-gradient(
+    160deg,
+    #00ad12 35%,
+    rgba(212, 248, 210) 100%
+  );
 }
 
 * {
@@ -129,9 +131,15 @@ a:hover {
   box-shadow: var(--boxShadow);
   border: var(--border);
 }
+.met {
+  width: 100%;
+  height: 100%;
+  box-shadow: var(--boxShadow);
+  border: var(--border);
+}
 
 /* -----------------------------h1 dinosaure_list------------------------------ */
-.container_dinosaure_list>h1 {
+.container_dinosaure_list > h1 {
   font-size: var(--font-size);
   color: var(--primaryColor);
   -webkit-text-stroke: #c3ffb4e9;
@@ -402,7 +410,7 @@ section.container_card_volant.hide {
   margin-bottom: 2rem;
 }
 
-.contenair_anecdote>h1 {
+.contenair_anecdote > h1 {
   font-size: 2em;
   max-width: 20vw;
   min-width: 22vw;
@@ -664,7 +672,8 @@ footer ul li {
   }
 
   100% {
-    transform: translate(70%, -0%) rotate(-360deg) translateX(0%) rotate(180deg) translateX(20%);
+    transform: translate(70%, -0%) rotate(-360deg) translateX(0%) rotate(180deg)
+      translateX(20%);
   }
 }
 
@@ -720,7 +729,6 @@ footer ul li {
 }
 
 @keyframes particle-fade {
-
   0%,
   100% {
     opacity: 0;
