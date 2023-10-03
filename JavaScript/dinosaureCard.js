@@ -10,7 +10,7 @@ document.getElementById("search-list").addEventListener("input", (e) => {
   createDinosaureCard();
 });
 
-document.getElementById("terrestre").addEventListener("change", (e) => {
+/*document.getElementById("terrestre").addEventListener("change", (e) => {
   attribut = e.target.checked;
   createDinosaureCard();
 });
@@ -29,7 +29,7 @@ document.getElementById("carnivore").addEventListener("click", (e) => {
 document.getElementById("herbivore").addEventListener("click", (e) => {
   diet = e.target.click;
   createDinosaureCard();
-});
+});*/
 
 const createDinosaureCard = () => {
   const dinoArray = [];
