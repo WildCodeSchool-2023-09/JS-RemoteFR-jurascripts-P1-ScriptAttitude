@@ -1,6 +1,8 @@
 import dinosauresList from "./dinosauresList.js";
+const criVolume = document.getElementById("audio");
 
 const dinoCards = document.getElementById("container_card");
+
 let search = "";
 let diet = "";
 let attribut = "";
@@ -45,11 +47,11 @@ const createDinosaureCard = () => {
       ) {
         dinoArray.push(`<div class="c_card">
           <img class="imgAllosaurus" src="${dinosauresList[i].image}" alt="un dinosaure" />
-          <p>Nom: ${dinosauresList[i].name}</p>
+          <p>Nom: ${dinosauresList[i].name}  <audio id= "volume" controls  src="${dinosauresList[i].cri}"> </audio></p>
           <p>Type: ${dinosauresList[i].attribut}</p>
           <p>Régime: ${dinosauresList[i].diet}</p>
-          <p>Description: <i>"${dinosauresList[i].desc}"</i></p> <!--alexandre -->
-          <p>Cri: <audio controls src="${dinosauresList[i].cri}"> </audio></p>
+          <p>Description: <i>"${dinosauresList[i].description}"</i></p> <!--alexandre -->
+          
           </div>`);
       }
     }
@@ -58,11 +60,12 @@ const createDinosaureCard = () => {
 };
 
 // loading
-const loader = document.querySelector('.loader');
+const loader = document.querySelector(".loader");
 
-window.addEventListener('load', () => {
-loader.classList.add('fondu-out');
-setTimeout(() => {
-  loader.classList.add('end-animation')
-}, 2000);
-})
+window.addEventListener("load", () => {
+  loader.classList.add("fondu-out");
+  setTimeout(() => {
+    loader.classList.add("end-animation");
+  }, 2000);
+});
+criVolume.volume = 0.1;
