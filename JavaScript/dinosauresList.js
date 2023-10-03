@@ -92,7 +92,8 @@ const dinosauresList = [
   {
     name: "Jobaria",
     surname: "Jordan",
-    description: "",
+    description:
+      "Jobaria est un genre éteint de grands dinosaures sauropodes eusauropodes.Quadrupède, il pouvait aussi se tenir debout sur ses pattes postérieures. Il possédait 12 vertèbres cervicales, un cou assez court pour un sauropode et des dents larges en forme de ciseaux. C'est l'un des sauropodes les mieux connus car on a retrouvé plusieurs squelettes d'animaux adultes et juvéniles (on a rassemblé en tout 95 % d'un squelette complet).",
     image: "src/Dinosaures/jobaria.png",
     diet: "herbivore",
     attribut: "terrestre",
@@ -101,7 +102,8 @@ const dinosauresList = [
   {
     name: "Kronosaurus",
     surname: "Kevin",
-    description: "",
+    description:
+      "Comme les autres pliosaures, Kronosaurus était un reptile marin. Il a une tête allongée, un cou court, un corps rigide propulsé par quatre nageoires et une queue relativement courte. Les nageoires postérieures auraient été plus grandes que les antérieures. Kronosaurus était carnivore et possède de nombreuses dents longues, pointues et coniques.",
     image: "src/Dinosaures/Kronosaurus.png",
     diet: "carnivore",
     attribut: "aquatique",
@@ -110,7 +112,8 @@ const dinosauresList = [
   {
     name: "Mosasaurus",
     surname: "Maxence",
-    description: "",
+    description:
+      "Mosasaurus est un type de mosasaure dérivé ou tardif ayant des traits évolutifs avancés tels qu'un mode de vie entièrement aquatique. En tant que tel, il a un corps profilé, une queue allongée se terminant par un repli supportant une nageoire à deux lobes et deux paires de palettes natatoires. Dans les premières descriptions scientifiques les concernant, les mosasaures dérivés étaient décrits comme des serpents marins géants à nageoires.",
     image: "src/Dinosaures/mosasaurus.png",
     diet: "carnivore",
     attribut: "aquatique",
@@ -128,7 +131,8 @@ const dinosauresList = [
   {
     name: "Protocératops",
     surname: "Paul",
-    description: "",
+    description:
+      "Le Protoceratops mesurait 2 mètres de long et pesait 150 kilos. Contrairement aux espèces qui lui succédèrent, ou du moins qui lui sont relatives, il ne présente aucune corne bien développée sur sa tête ; il a tout juste une excroissance osseuse sur le museau, excroissance qui se développera en corne chez ses successeurs. Il possédait aussi une large collerette, typique des cératopsiens, qui a pu servir à la protection de son cou, à ancrer les muscles de sa mâchoire ou à impressionner ses congénères.",
     image: "src/Dinosaures/Protoceratops.jpg",
     diet: "herbivore",
     attribut: "terrestre",
@@ -137,7 +141,8 @@ const dinosauresList = [
   {
     name: "Ptéranodon",
     surname: "Prasanna",
-    description: "",
+    description:
+      "Pteranodon mesurait 7 mètres d'envergure et pesait 25 kilos. À la différence de plus anciens ptérosaures, comme Rhamphorhynchus ou Pterodactylus, le ptéranodon était dépourvu de dents, avait la queue atrophiée et des os creux, très légers et souples, mais renforcés par un réseau interne de longerons.",
     image: "src/Dinosaures/Pteranodon.jpg",
     diet: "carnivore",
     attribut: "volant",
@@ -146,7 +151,8 @@ const dinosauresList = [
   {
     name: "Spinosaure",
     surname: "Nelson",
-    description: "",
+    description:
+      "Spinosaurus est un animal au museau long et étroit portant une rangée sigmoïde de dents coniques. Les scientifiques s'accordent à dire que les Spinosauridae comme Spinosaurus, qui possèdent un crâne crocodiliforme, furent des animaux au moins partiellement piscivores, capable de se nourrir également d'autres proies comme de jeunes dinosaures et des ptérosaures.",
     image: "src/Dinosaures/Spinosaurus.png",
     diet: "carnivore",
     attribut: "terrestre",
@@ -155,7 +161,8 @@ const dinosauresList = [
   {
     name: "Stegosaurus",
     surname: "Sandrine",
-    description: "",
+    description:
+      "Le stégosaure pouvait mesurer jusqu'à 9 mètres de long, 4 mètres de haut et peser jusqu'à 3 tonnes. Bien que le stégosaure soit un gros animal, par rapport à la taille moyenne actuelle des espèces terrestres, il est plutôt petit par rapport à ses contemporains les sauropodes géants.",
     image: "src/Dinosaures/stegosaure.png",
     diet: "herbivore",
     attribut: "terrestre",
@@ -164,16 +171,18 @@ const dinosauresList = [
   {
     name: "Stenopterygius",
     surname: "Suzy",
-    description: "",
+    description:
+      "Le mode de vie de Stenopterygius était similaire à celui de nos dauphins actuels. Il devait passer la plus grande partie de sa vie au milieu de l'océan dans les eaux profondes où il chassait des poissons, des céphalopodes et d'autres animaux du milieu aquatique.",
     image: "src/Dinosaures/Stenopterygius.png",
     diet: "carnivore",
     attribut: "aquatique",
     cri: "src/asset/Stenopterygius _sounds.mp3",
   },
   {
-    name: "T-Rex",
+    name: "Tyrannosaurus",
     surname: "Benoît",
-    description: "The Boss",
+    description:
+      "Tyrannosaurus rex est l'un des plus grands carnivores ayant vécu sur Terre. Le plus grand spécimen complet (mais pas le plus grand spécimen) découvert à ce jour,Comme chez les autres théropodes, le cou du T. rex forme une courbe en forme de « S » afin de maintenir la tête au-dessus du corps, mais il est particulièrement court et musculeux afin de supporter la tête massive. Les bras sont courts et se terminent par deux doigts",
     image: "src/Dinosaures/t-rex.jpeg",
     diet: "carnivore",
     attribut: "terrestre",
@@ -182,7 +191,8 @@ const dinosauresList = [
   {
     name: "Vélociraptor",
     surname: "Valentin",
-    description: "",
+    description:
+      "Velociraptor est un droméosauridé de taille petite à moyenne, les adultes mesurant entre 1,5 et 2,07 m de long pour environ 50 cm de haut au niveau des hanches, le tout pour un poids estimé entre 15 et 18,3 kg.Des boutons de piquant proéminents, servant de fixation des plumes « d'aile » et indicateur direct d'un revêtement de plumes, ont été signalés sur l'ulna d'un seul spécimen de Velociraptor , qui représente un animal d'environ 1,5 m de long et de 15 kg en poids. ",
     image: "src/Dinosaures/Velociraptor.png",
     diet: "carnivore",
     attribut: "terrestre",
@@ -191,7 +201,8 @@ const dinosauresList = [
   {
     name: "Xiaosaurus",
     surname: "Xavier",
-    description: "",
+    description:
+      "Xiaosaurus est un genre éteint de petit dinosaure ornithischien bipède et herbivore du clade des Genasauria.A partir d'un fémur de 11 centimètres de long, la taille de l'animal a été estimée à environ 1 mètre.",
     image: "src/Dinosaures/Xiaosaurus.png",
     diet: "herbivore",
     attribut: "terrestre",
