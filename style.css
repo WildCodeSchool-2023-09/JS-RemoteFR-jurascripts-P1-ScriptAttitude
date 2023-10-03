@@ -260,7 +260,7 @@ legend {
 /* -------------------------audio-------------------- */
 
 audio {
-  width: 5.8rem;
+  width: 50%;
   height: 1rem;
   margin-left: 1rem;
   border-radius: var(--border-radius-bouton);

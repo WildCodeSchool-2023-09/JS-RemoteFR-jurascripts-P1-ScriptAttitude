@@ -49,8 +49,8 @@ const createDinosaureCard = () => {
           <p>Nom: ${dinosauresList[i].name} </p>
           <p>Type: ${dinosauresList[i].attribut}</p>
           <p>Régime: ${dinosauresList[i].diet}</p>
-          <p>Description: <i>"${dinosauresList[i].description}"</i></p> 
-           <audio id= "volume" controls  src="${dinosauresList[i].cri}"> </audio>
+          <p>Description: <i>${dinosauresList[i].description}</i></p> 
+           <audio id= "volume" controls><source  src="${dinosauresList[i].cri}" type="audio/mp3"> </audio>
           
           </div>`);
       }
