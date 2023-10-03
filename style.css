@@ -253,7 +253,7 @@ fieldset {
   padding: 0.2rem;
   background-color: var(--background-color-cads);
   height: 30rem;
-  margin: 1rem 0;
+  width: 100%;
 }
 
 .c_card img {
@@ -836,7 +836,7 @@ footer ul li {
   background: hsl(0, 0%, 95%);
 }
 
-/* loading ... prasanna  */
+/* loading ... prasanna --------------------------------------- */
 
 .loader {
   position: absolute;

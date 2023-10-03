@@ -132,7 +132,7 @@ const dinosauresList = [
     name: "Protocératops",
     surname: "Paul",
     description:
-      "Le Protoceratops mesurait 2 mètres de long et pesait 150 kilos. Contrairement aux espèces qui lui succédèrent, ou du moins qui lui sont relatives, il ne présente aucune corne bien développée sur sa tête ; il a tout juste une excroissance osseuse sur le museau, excroissance qui se développera en corne chez ses successeurs. Il possédait aussi une large collerette, typique des cératopsiens, qui a pu servir à la protection de son cou, à ancrer les muscles de sa mâchoire ou à impressionner ses congénères.",
+      "Le Protoceratops mesurait 2 mètres de long et pesait 150 kilos. Contrairement aux espèces qui lui succédèrent, ou du moins qui lui sont relatives, il ne présente aucune corne bien développée sur sa tête ; il a tout juste une excroissance osseuse sur le museau, excroissance qui se développera en corne chez ses successeurs. ",
     image: "src/Dinosaures/Protoceratops.jpg",
     diet: "herbivore",
     attribut: "terrestre",
@@ -192,7 +192,7 @@ const dinosauresList = [
     name: "Vélociraptor",
     surname: "Valentin",
     description:
-      "Velociraptor est un droméosauridé de taille petite à moyenne, les adultes mesurant entre 1,5 et 2,07 m de long pour environ 50 cm de haut au niveau des hanches, le tout pour un poids estimé entre 15 et 18,3 kg.Des boutons de piquant proéminents, servant de fixation des plumes « d'aile » et indicateur direct d'un revêtement de plumes, ont été signalés sur l'ulna d'un seul spécimen de Velociraptor , qui représente un animal d'environ 1,5 m de long et de 15 kg en poids. ",
+      "Velociraptor est un droméosauridé de taille petite, les adultes mesurant entre 1,5 et 2,07 m de long pour environ 50 cm de haut au niveau des hanches.Des boutons de piquant proéminents, servant de fixation des plumes « d'aile » et indicateur direct d'un revêtement de plumes, ont été signalés sur l'ulna d'un seul spécimen de Velociraptor , qui représente un animal d'environ 1,5 m de long et de 15 kg en poids. ",
     image: "src/Dinosaures/Velociraptor.png",
     diet: "carnivore",
     attribut: "terrestre",
