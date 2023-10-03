@@ -57,4 +57,4 @@ const createDinosaureCard = () => {
   }
   dinoCards.innerHTML = dinoArray.join("");
 };
-export default dinoCards;
+export default createDinosaureCard;

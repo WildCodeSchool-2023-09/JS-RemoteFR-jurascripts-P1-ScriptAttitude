@@ -1,17 +1,17 @@
 const carousel = document.querySelector(".container_card");
-// const boutonCard = document.querySelectorAll(".container_nav_card");
-// const firstCardWidth = document.querySelector(".c_card").offsetWidth;
+const boutonCard = document.querySelectorAll(".container_nav_card button");
+const firstCardWidth = document.getElementsByClassName("c_card").offsetWidth;
 
 let isDraging = false,
   startX,
   startScrollLeft;
 
-// boutonCard.forEach((btn) => {
-//   btn.addEventListener("click", () => {
-//     carousel.scrollLeft +=
-//       btn.id === "btnLeftC" ? -firstCardWidth : firstCardWidth;
-//   });
-// });
+boutonCard.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    carousel.scrollLeft +=
+      btn.id === "btnRightC" ? -firstCardWidth : firstCardWidth;
+  });
+});
 
 const dragStart = (e) => {
   isDraging = true;

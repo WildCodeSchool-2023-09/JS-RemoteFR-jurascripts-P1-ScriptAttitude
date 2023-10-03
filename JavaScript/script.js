@@ -1,10 +1,11 @@
-import dinoCards from "./dinosaureCard.js";
+import createDinosaureCard from "./dinosaureCard.js";
 import dragging from "./slide.js";
 
-const criVolume = document.getElementById("audio");
+let criVolume = document.getElementById("audio");
 const loader = document.querySelector(".loader");
 
-dinoCards();
+createDinosaureCard();
+dragging();
 
 // loading
 window.addEventListener("load", () => {
@@ -14,5 +15,4 @@ window.addEventListener("load", () => {
   }, 2000);
 });
 
-criVolume.volume = 0.1;
-dragging();
+criVolume.volume = 0.0;
