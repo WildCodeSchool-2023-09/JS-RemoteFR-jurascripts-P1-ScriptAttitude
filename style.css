@@ -13,9 +13,11 @@
   --text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   --boxShadowtext: 2px 0px 13px rgba(0, 0, 0, 0.97);
   --background-color-cads: rgb(212, 248, 210);
-  --linear-gradient: linear-gradient(160deg,
-      #00ad12 35%,
-      rgba(212, 248, 210) 100%);
+  --linear-gradient: linear-gradient(
+    160deg,
+    #00ad12 35%,
+    rgba(212, 248, 210) 100%
+  );
 }
 
 * {
@@ -120,7 +122,7 @@ nav ul li {
 
 a {
   color: black;
-  text-decoration:none;
+  text-decoration: none;
   text-shadow: var(--text-shadow);
   text-decoration-color: none;
 }
@@ -135,7 +137,7 @@ a:hover {
 }
 
 /* -----------------------------h1 dinosaure_list------------------------------ */
-.container_dinosaure_list>h1 {
+.container_dinosaure_list > h1 {
   font-size: var(--font-size);
   color: var(--primaryColor);
   -webkit-text-stroke: #c3ffb4e9;
@@ -177,7 +179,7 @@ a:hover {
 /* --------------------------------dino card -------------------------------------*/
 
 .cadreC {
-  padding: 0 15%;
+  padding: 0 13%;
 }
 
 .warpper {
@@ -192,21 +194,40 @@ a:hover {
   gap: 10px;
   border-radius: var(--border-radius);
   overflow: hidden;
-}
+  overflow-x: auto;
 
+  margin-top: 1rem;
+  padding: 1rem 0;
+}
+/* ===== Scrollbar CSS ===== */
+
+.container_card {
+  scrollbar-width: none;
+  scrollbar-color: #f2f2f2 #00ad12;
+}
+.container_card::-webkit-scrollbar {
+  width: 14px;
+}
+.container_card::-webkit-scrollbar-track {
+  background: #00ad12;
+}
+.container_card::-webkit-scrollbar-thumb {
+  background-color: #f2f2f2;
+  border-radius: 50px;
+  border: 2px ridge #000000;
+}
 .container_card.dragging .c_card {
   cursor: grab;
   user-select: none;
 }
 
 .c_card {
+  display: grid;
   border: rgb(0, 0, 0) solid 5px;
   border-radius: 1rem;
   box-shadow: var(--boxShadow);
   padding: 0.2rem;
   background-color: var(--background-color-cads);
-  height: 30rem;
-  width: 100%;
 }
 
 .c_card img {
@@ -268,10 +289,6 @@ audio::-webkit-media-controls-panel {
   background: var(--linear-gradient);
 }
 
-audio::-webkit-media-controls-mute-button {
-  display: none;
-}
-
 audio::-webkit-media-controls-current-time-display {
   display: none;
 }
@@ -285,14 +302,6 @@ audio::-webkit-media-controls-time-remaining-display {
 }
 
 audio::-webkit-media-controls-timeline {
-  display: none;
-}
-
-audio::-webkit-media-controls-volume-slider-container {
-  display: none;
-}
-
-audio::-webkit-media-controls-volume-slider {
   display: none;
 }
 
@@ -356,7 +365,8 @@ section.container_card_volant.hide {
 /* -------------------------------------------- NAV_CARD ----------------------------------------------- */
 
 .container_nav_card {
-  display: flex;
+  display: none;
+  /* display: flex; */
   justify-content: center;
   gap: 2rem;
   padding: 1rem;
@@ -394,12 +404,13 @@ section.container_card_volant.hide {
   margin-bottom: 2rem;
 }
 
-.contenair_anecdote>h2 {
+.contenair_anecdote > h2 {
   font-family: var(--font-family);
   font-size: 2rem;
   color: var(--primaryColor);
   -webkit-text-stroke: #c3ffb4e9;
   -webkit-text-stroke-width: 1px;
+  margin-top: 2rem;
 }
 
 .contenair_anecdote img {
@@ -652,7 +663,8 @@ footer ul li {
   }
 
   100% {
-    transform: translate(70%, -0%) rotate(-360deg) translateX(0%) rotate(180deg) translateX(20%);
+    transform: translate(70%, -0%) rotate(-360deg) translateX(0%) rotate(180deg)
+      translateX(20%);
   }
 }
 
@@ -708,7 +720,6 @@ footer ul li {
 }
 
 @keyframes particle-fade {
-
   0%,
   100% {
     opacity: 0;

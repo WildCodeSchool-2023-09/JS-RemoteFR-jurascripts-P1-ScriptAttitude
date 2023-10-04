@@ -1,14 +1,8 @@
 const carousel = document.querySelector(".container_card");
-// const boutonRight = document.getElementById("btnRightC");
-// const firstCardWidth = carousel.querySelector(".c_card").offsetWidth;
 
 let isDraging = false,
   startX,
   startScrollLeft;
-
-// boutonRight.addEventListener("click", () => {
-//   carousel.scrollLeft += -firstCardWidth;
-// });
 
 const dragStart = (e) => {
   isDraging = true;
@@ -17,14 +11,14 @@ const dragStart = (e) => {
   startScrollLeft = carousel.scrollLeft;
 };
 
-const dragStop = () => {
-  isDraging = false;
-  carousel.classList.remove("dragging");
-};
-
 const dragging = (e) => {
   if (!isDraging) return;
   carousel.scrollLeft = startScrollLeft - (e.pageX - startX);
+};
+
+const dragStop = () => {
+  isDraging = false;
+  carousel.classList.remove("dragging");
 };
 
 carousel.addEventListener("mousemove", dragging);

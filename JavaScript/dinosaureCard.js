@@ -44,7 +44,7 @@ const createDinosaureCard = () => {
         dinosauresList[i].attribut.toLowerCase().includes(search) ||
         dinosauresList[i].diet.toLowerCase().includes(search)
       ) {
-        dinoArray.push(`<div class="c_card" draggable="false">
+        dinoArray.push(`<div class="c_card"  draggable="false">
           <img class="imgAllosaurus" src="${dinosauresList[i].image}" alt="un dinosaure" />
           <p>Nom: ${dinosauresList[i].name} </p>
           <p>Type: ${dinosauresList[i].attribut}</p>
