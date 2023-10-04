@@ -88,7 +88,8 @@ body {
   position: absolute;
   z-index: 1;
   top: 3vh;
-  left: 40%;
+  left: clamp(40%, 5%, 5%);
+  width: clamp(15rem, 25vw, 40rem);
 }
 
 /* ----------------------------login et forum ------------------------------*/
