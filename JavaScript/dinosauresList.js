@@ -40,6 +40,15 @@ const dinosauresList = [
     cri: "src/asset/Ceratosaurus_sounds.mp3",
   },
   {
+    name: "",
+    surname: "Christopher",
+    description: "",
+    image: "",
+    diet: "",
+    attribut: "",
+    cri: "",
+  },
+  {
     name: "Cryptoclidus",
     surname: "Cedric",
     description:

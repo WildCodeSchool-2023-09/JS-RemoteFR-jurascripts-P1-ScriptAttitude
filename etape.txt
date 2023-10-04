@@ -1,0 +1,22 @@
+1-nav bar: reduire taille police,hover bouton zoom.
+
+2- login menu forum  hover zoom
+
+3-regler logo
+
+4-js categorie type 
+
+5- js nav bouton carrousel
+
+6- carrousel anecdote
+
+7-refaire footer
+
+------------------------
+
+1- responsive bar nav menu burger
+
+2- responsive categorie type 
+
+
+3-dernier reglage 
