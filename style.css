@@ -271,26 +271,6 @@ a:hover {
   font-weight: 700;
 }
 
-@media screen and (max-width: 900px) {
-  .wrapper .container_card {
-    grid-auto-columns: calc(97% / 2);
-  }
-
-  .cadreC {
-    padding: 0 10%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .wrapper .container_card {
-    grid-auto-columns: 100%;
-  }
-
-  .cadreC {
-    padding: 0 1%;
-  }
-}
-
 /* -------------------------audio-------------------- */
 
 audio {
