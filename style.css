@@ -35,7 +35,7 @@ body {
   grid-template-columns: repeat(6, 1fr);
   gap: 1rem;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #000000;
+  -webkit-text-stroke-color: #8b1111;
   margin: 2rem;
   font-size: x-large;
 }
