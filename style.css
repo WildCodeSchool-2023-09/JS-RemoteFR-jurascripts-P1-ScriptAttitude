@@ -122,6 +122,10 @@ a {
   text-shadow: var(--text-shadow);
 }
 
+a:visited {
+  color: black;
+}
+
 a:hover {
   color: white;
   text-decoration: underline;
