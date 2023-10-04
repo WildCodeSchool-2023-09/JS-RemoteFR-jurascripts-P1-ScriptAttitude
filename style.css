@@ -13,9 +13,11 @@
   --text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   --boxShadowtext: 2px 0px 13px rgba(0, 0, 0, 0.97);
   --background-color-cads: rgb(212, 248, 210);
-  --linear-gradient: linear-gradient(160deg,
-      #00ad12 35%,
-      rgba(212, 248, 210) 100%);
+  --linear-gradient: linear-gradient(
+    160deg,
+    #00ad12 35%,
+    rgba(212, 248, 210) 100%
+  );
 }
 
 * {
@@ -84,15 +86,17 @@ body {
   padding: 1.5rem;
   margin-bottom: 3rem;
 }
+.met {
+  width: 100%;
+  height: 50%;
+}
 
 .icon .iLogin {
-
   width: 60px;
   z-index: 1;
 }
 
 .icon .iForum {
-
   width: 60px;
   z-index: 1;
 }
@@ -120,6 +124,11 @@ a {
   color: var(--primaryColor);
   text-decoration: none;
   text-shadow: var(--text-shadow);
+  text-decoration-color: none;
+}
+
+a:visited {
+  color: black;
 }
 
 a:visited {
@@ -132,7 +141,7 @@ a:hover {
 }
 
 /* -----------------------------h1 dinosaure_list------------------------------ */
-.container_dinosaure_list>h1 {
+.container_dinosaure_list > h1 {
   font-size: var(--font-size);
   color: var(--primaryColor);
   -webkit-text-stroke: #c3ffb4e9;
@@ -391,12 +400,12 @@ section.container_card_volant.hide {
   margin-bottom: 2rem;
 }
 
-.contenair_anecdote>h2 {
+.contenair_anecdote > h2 {
   font-family: var(--font-family);
   font-size: 2rem;
   color: var(--primaryColor);
   -webkit-text-stroke: #c3ffb4e9;
-  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 1px;
 }
 
 .contenair_anecdote img {
@@ -427,7 +436,6 @@ section.container_card_volant.hide {
   font-family: var(--font-family-p);
   padding: 1rem;
   font-style: italic;
-
 }
 
 .anecdote_r {
@@ -650,7 +658,8 @@ footer ul li {
   }
 
   100% {
-    transform: translate(70%, -0%) rotate(-360deg) translateX(0%) rotate(180deg) translateX(20%);
+    transform: translate(70%, -0%) rotate(-360deg) translateX(0%) rotate(180deg)
+      translateX(20%);
   }
 }
 
@@ -706,7 +715,6 @@ footer ul li {
 }
 
 @keyframes particle-fade {
-
   0%,
   100% {
     opacity: 0;
