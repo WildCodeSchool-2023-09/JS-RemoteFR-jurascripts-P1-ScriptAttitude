@@ -119,8 +119,8 @@ nav ul li {
 }
 
 a {
-  color: var(--primaryColor);
-  text-decoration: none;
+  color: black;
+  text-decoration:none;
   text-shadow: var(--text-shadow);
   text-decoration-color: none;
 }
