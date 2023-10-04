@@ -31,6 +31,7 @@ body {
 }
 
 /* ------------------barre nav --------------------------*/
+
 .container_menu {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -39,22 +40,41 @@ body {
   margin: 2rem;
   font-size: x-large;
 }
-
-.histoire {
+.liste {
   grid-column: 0/1;
 }
-
-.list {
-  grid-column: 1/2;
-  grid-row: 1;
+.histoire {
+  grid-column: 2/3;
 }
-
 .portfolio {
   grid-column: 6/7;
 }
-
-.propo {
+.apropos {
   grid-column: 7/8;
+}
+.button {
+  background-color: #105f1e1;
+  border-radius: 10px;
+  border: 4px double #105f1e;
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  padding: 12px;
+  width: 200px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  border: 2px solid #105f1e;
+  box-shadow: 10px 5px 5px #105f1e;
+  color: #105f1e;
+  text-align: center;
+  font-size: 24px;
 }
 
 /* --------------------logo ------------------------------*/
