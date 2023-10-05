@@ -16,3 +16,10 @@ window.addEventListener("load", () => {
 });
 
 // criSong.volume = 0.1;
+
+const btnBurgerImg = document.getElementById("btnBurger");
+const navBar = document.getElementById("nav");
+
+btnBurgerImg.addEventLister("click", () => {
+  navBar.className = "active";
+});

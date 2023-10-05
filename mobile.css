@@ -1,4 +1,74 @@
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
+  .loginM {
+    display: block;
+  }
+  .forumM {
+    display: block;
+  }
+  #img_logo {
+    left: 54vw;
+  }
+
+  .container_menu {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    background: var(--secondColor);
+    text-align: center;
+    transition: 0.25s;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    top: 0.2%;
+    transition: 0.25s;
+    border: rgb(17, 180, 12) solid 3px;
+    left: -100%;
+  }
+
+  .iForum {
+    display: none;
+  }
+  .iLogin {
+    display: none;
+  }
+  #menuBurger img {
+    display: block;
+    position: absolute;
+  }
+
+  #menuBurger {
+    cursor: pointer;
+    padding: 0.2rem 0.5rem;
+  }
+  #menuBurger.active img:first-of-type {
+    position: absolute;
+    cursor: pointer;
+    width: 50px;
+    padding-top: 0.1rem;
+  }
+  #menuBurger.burgerActive img:last-child {
+    position: absolute;
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+    padding-top: 0.9rem;
+  }
+  #menuBurger img:last-child {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+    padding-top: 0.9rem;
+  }
+  .container_primary_selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .select_dinosaure {
+    text-align: center;
+  }
+
   .wrapper .container_card {
     grid-auto-columns: calc(97% / 2);
   }
@@ -11,6 +81,12 @@
 @media screen and (max-width: 600px) {
   .wrapper .container_card {
     grid-auto-columns: 100%;
+  }
+  #img_logo {
+    left: 40vw;
+    width: 70%;
+    height: 30%;
+    top: 5%;
   }
 
   .cadreC {
