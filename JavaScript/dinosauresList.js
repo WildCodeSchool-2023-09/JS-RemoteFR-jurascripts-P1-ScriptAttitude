@@ -1,7 +1,7 @@
 const dinosauresList = [
   {
     name: "Allosaurus",
-    surname: "Alexendre",
+    surname: "Alexandre",
     description:
       "Le dinosaure Allosaurus (Allosaure) est un énorme Carnosaure, l un des plus grands de la famille des Allosauridés, il était probablement le plus féroce prédateur du Jurassique.",
     image: "src/Dinosaures/allosaurus.jpeg",
@@ -36,17 +36,17 @@ const dinosauresList = [
       "Ceratosaurus mesurait six mètres de long pour trois de haut et pesait environ 800 kg ; pour l'époque, c'était un prédateur de taille moyenne. L'espèce africaine C. ingens comportait peut-être des individus plus imposants, atteignant cinq tonnes, ce qui en ferait l'un des plus gros théropodes.",
     image: "src/Dinosaures/Ceratosaurus.jpeg",
     diet: "carnivore",
-    attribut: "terrestre)",
+    attribut: "terrestre",
     cri: "src/asset/Ceratosaurus_sounds.mp3",
   },
   {
-    name: "",
+    name: "Carnotaure",
     surname: "Christopher",
-    description: "",
-    image: "",
-    diet: "",
-    attribut: "",
-    cri: "",
+    description: `Le Carnotaure appellé aussi "le Taureau Carnivore", notamment à cause de ses cornes était un dinosaure de la famille prédateur. Il a été découvert par un certain José Bonaporre en Amérique du sud. Il mesurait entre 7 mètres à 9 mètres et pesait environ 1,5 tonne.`,
+    image: "src/Dinosaures/dinosauro.jpg",
+    diet: "carnivore",
+    attribut: "terrestre",
+    cri: "src/asset/Carnotaurus-sounds.mp3",
   },
   {
     name: "Cryptoclidus",

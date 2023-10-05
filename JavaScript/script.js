@@ -9,13 +9,13 @@ const loader = document.querySelector(".loader");
 createDinosaureCard();
 dragging();
 
-// loading;
-window.addEventListener("load", () => {
-  loader.classList.add("fondu-out");
-  setTimeout(() => {
-    loader.classList.add("end-animation");
-  }, 2000);
-});
+// // loading;
+// window.addEventListener("load", () => {
+//   loader.classList.add("fondu-out");
+//   setTimeout(() => {
+//     loader.classList.add("end-animation");
+//   }, 2000);
+// });
 
 menuBurger();
 // criSong.volume = 0.1;
