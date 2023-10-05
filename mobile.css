@@ -23,6 +23,9 @@
     border: rgb(17, 180, 12) solid 3px;
     left: -100%;
   }
+  .activeB {
+    left: 0%;
+  }
 
   .iForum {
     display: none;
@@ -39,27 +42,26 @@
     cursor: pointer;
     padding: 0.2rem 0.5rem;
   }
-  #menuBurger.active img:first-of-type {
+
+  .menuBurger img:first-child {
     position: absolute;
     cursor: pointer;
-    width: 50px;
-    padding-top: 0.1rem;
+    width: 60px;
+    height: 55px;
+    padding-top: 0.5rem;
   }
-  #menuBurger.burgerActive img:last-child {
+  .menuBurger img:last-child {
     position: absolute;
     cursor: pointer;
     width: 55px;
     height: 55px;
     padding-top: 0.9rem;
   }
-  #menuBurger img:last-child {
-    display: none;
-    position: absolute;
-    cursor: pointer;
-    width: 55px;
-    height: 55px;
-    padding-top: 0.9rem;
+
+  .btnActive {
+    left: -100%;
   }
+
   .container_primary_selection {
     display: flex;
     flex-direction: column;

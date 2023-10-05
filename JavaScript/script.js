@@ -1,5 +1,7 @@
 import createDinosaureCard from "./dinosaureCard.js";
 import dragging from "./slide.js";
+import menuBurger from "./menuBurger.js";
+
 const loader = document.querySelector(".loader");
 
 // let criSong = document.getElementById("volume").volume;
@@ -15,11 +17,5 @@ window.addEventListener("load", () => {
   }, 2000);
 });
 
+menuBurger();
 // criSong.volume = 0.1;
-
-const btnBurgerImg = document.getElementById("btnBurger");
-const navBar = document.getElementById("nav");
-
-btnBurgerImg.addEventLister("click", () => {
-  navBar.className = "active";
-});
