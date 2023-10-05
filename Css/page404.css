@@ -144,6 +144,14 @@ a:hover {
   justify-content: center;
 }
 
+#logo_tablet {
+display: none;
+}
+
+#logo_mobile {
+  display: none;
+}
+
 #img_logo {
   height: 15rem;
   position: absolute;
