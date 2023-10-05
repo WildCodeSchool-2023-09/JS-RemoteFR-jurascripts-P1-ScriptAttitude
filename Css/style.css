@@ -478,31 +478,51 @@ section.container_card_volant.hide {
   font-style: italic;
 }
 
+#slider {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  /* gap: 15px; */
+}
+
+#controle_container {
+  display: flex;
+}
 
 #precedent,
 #suivant {
-  height: 3rem;
-  width: 3rem;
+  height: 50px;
+  width: 50px;
+  padding: 10px;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: var(--primaryColor);
   color: rgba(0, 0, 0, 0.8);
   text-align: center;
-  line-height: 3rem;
-  border-radius: 3rem;
+  /* line-height: 50px; */
+  border-radius: 50px;
   box-shadow: var(--boxShadow);
-  box-shadow: var(--boxShadowtext);
+  background: var(--linear-gradient);
+  border: rgb(0, 0, 0) solid 1px;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  margin: 0 10;
 }
 
 #slide-anecdote {
   margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
   padding: 1rem;
   box-shadow: var(--boxShadow);
   border-radius: var(--border-radius);
   background-color: var(--background-color-cads);
   border: rgb(0, 0, 0) solid 5px;
-  width: 80%;
-  margin: auto;
-  height: 4%;
 }
 
 /* ------------------------------- Footer  ----------------------------------------------- */
@@ -1001,50 +1021,3 @@ footer div p {
 }
 
 /* audio youtube rexy montero merci */
-
-#slider {
-  position: relative;
-  width: 80%;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  /* gap: 15px; */
-}
-
-#controle_container {
-  display: flex;
-}
-
-#precedent,
-#suivant {
-  height: 50px;
-  width: 50px;
-  padding: 10px;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: var(--primaryColor);
-  color: rgba(0, 0, 0, 0.8);
-  text-align: center;
-  /* line-height: 50px; */
-  border-radius: 50px;
-  box-shadow: var(--boxShadow);
-  background: var(--linear-gradient);
-  border: rgb(0, 0, 0) solid 1px;
-  -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10 and IE 11 */
-  user-select: none; /* Standard syntax */
-  margin: 0 10;
-}
-
-#slide-anecdote {
-  margin-top: 3rem;
-  display: flex;
-  flex-direction: column;
-  padding: 1rem;
-  box-shadow: var(--boxShadow);
-  border-radius: var(--border-radius);
-  background-color: var(--background-color-cads);
-  border: rgb(0, 0, 0) solid 5px;
-}
