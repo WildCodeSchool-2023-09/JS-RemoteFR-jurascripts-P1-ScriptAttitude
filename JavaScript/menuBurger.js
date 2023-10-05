@@ -19,6 +19,8 @@ btnCroixImg.addEventListener("click", () => {
 links.forEach((link) => {
   link.addEventListener("click", () => {
     navBar.classList.remove("activeB");
+    btnCroixImg.classList.add("btnActive");
+    btnBurgerImg.classList.remove("btnActive");
   });
 });
 
