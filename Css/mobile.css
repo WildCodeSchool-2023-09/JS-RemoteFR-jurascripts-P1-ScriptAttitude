@@ -7,6 +7,29 @@
         font-size: 2rem;
     }
 
+    #logo_mobile {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      left: clamp(80%, 50%, 50%);
+      width: clamp(7rem, 25vw, 40rem);
+    }
+    
+    #img_logo_tablet {
+      display: none;
+    }
+    
+    #img_tablet {
+      display: none;
+    }
+    
+    
+    #img_logo_mobile {
+      height: 7rem;
+      width: 7rem;
+    
+    }
+
     .icon_F_L > h1 {
       font-size: 2rem;
     }
