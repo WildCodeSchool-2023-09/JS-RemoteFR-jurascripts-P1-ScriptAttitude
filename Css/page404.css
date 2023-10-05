@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Kavoon&family=Lobster&display=swap");
+
+:root {
+  --primaryColor: #00ad12;
+  --secondColor: #041a26;
+  --boxShadow: 2px 0px 13px rgba(34, 255, 0, 0.97);
+  --font-family: "Kavoon", sans-serif;
+  --font-family-p: "roboto", sans-serif;
+  --font-size: 3rem;
+  --border: #000 solid 3px;
+  --border-radius: 10px;
+  --border-radius-bouton: 2rem;
+  --text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  --boxShadowtext: 2px 0px 13px rgba(0, 0, 0, 0.97);
+  --background-color-cads: rgb(212, 248, 210);
+  --linear-gradient: linear-gradient(
+    160deg,
+    #00ad12 35%,
+    rgba(212, 248, 210) 100%
+  );
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--secondColor);
+}
+
+.container_menu {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+  -webkit-text-stroke-width: 1px;
+  margin: 2rem;
+  font-size: x-large;
+}
+
+.liste {
+  grid-column: 0/1;
+}
+
+.histoire {
+  grid-column: 2/3;
+}
+
+.portfolio {
+  grid-column: 6/7;
+}
+
+.apropos {
+  grid-column: 7/8;
+}
+
+.loginM {
+  display: none;
+}
+.forumM {
+  display: none;
+}
+
+/*---------------------- nav-------------------------------- */
+
+nav ul li {
+  display: flex;
+  list-style-type: none;
+  font-size: 1.5rem;
+  font-family: var(--font-family);
+  border-color: var(--border-color);
+  text-align: center;
+  box-shadow: var(--boxShadow);
+  border-radius: var(--border-radius);
+  width: 11.75rem;
+  height: 3.625rem;
+  border: var(--border);
+  justify-content: center;
+  align-items: center;
+  background: var(--linear-gradient);
+  border: #000 solid 3px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  text-shadow: var(--text-shadow);
+  text-decoration-color: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.button {
+  background-color: #105f1e;
+  border-radius: 10px;
+  border: 4px double #105f1e;
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  padding: 12px;
+  height: 3.2rem;
+  width: 10rem;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+  
+#menuBurger img {
+  display: none;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  border: 2px solid #105f1e;
+  box-shadow: 10px 5px 5px #105f1e;
+  color: #105f1e;
+  text-align: center;
+  font-size: 21px;
+}
+
+#menuBurger {
+  cursor: pointer;
+}
+
+#menuBurger img {
+  cursor: pointer;
+  width: 50px;
+}
+
+/* --------------------logo ------------------------------*/
+
+#container_img_logo {
+  display: flex;
+  justify-content: center;
+}
+
+#img_logo {
+  height: 15rem;
+  position: absolute;
+  z-index: 1;
+  top: 3vh;
+  left: clamp(40%, 5%, 5%);
+  width: clamp(15rem, 25vw, 40rem);
+}
+
+.icon_F_L {
+    background-image: url(../src/vaisseau.jpg);
+    background-size: 100% 100%;
+    height: 75vh;
+    width: 100%;
+    z-index: 0;
+    box-shadow: var(--boxShadow);
+    border: var(--border);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+  }
+  
+  .met {
+    width: 100%;
+    height: 12%;
+  }
+  
+  .icon .iLogin {
+    width: 60px;
+    z-index: 1;
+    width: clamp(30px, 5vw, 60px);
+  }
+
+  .iLogin:hover {
+    width: 90px;
+    width: clamp(60px, 5vw, 90px);
+}
+  
+  .icon .iForum {
+    width: 60px;
+    z-index: 1;
+    width: clamp(30px, 5vw, 60px);
+  }
+
+  .iForum:hover {
+    width: 90px;
+    width: clamp(60px, 5vw, 90px);
+}
+
+h1 {
+  color: #ffffff;
+  margin-top: 13rem;
+  text-align: center;
+  font-size: var(--font-size);
+  color: var(--primaryColor);
+  -webkit-text-stroke: #c3ffb4e9;
+  -webkit-text-stroke-width: 2px;
+}
+
+  footer {
+    margin-top: 7.8rem;
+    background-color: var(--primaryColor);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #icon_footer {
+    margin-top: 0.1rem;
+    margin-left: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
+  
+  #icon_logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #footer_left {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    margin-right: 1rem;
+  }
+  
+  footer div p {
+    font-family: var(--font-family-p);
+  }

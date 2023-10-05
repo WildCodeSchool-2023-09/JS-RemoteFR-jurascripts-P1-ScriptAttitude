@@ -1,0 +1,55 @@
+@media screen and (max-width: 600px) {
+    .wrapper .container_card {
+      grid-auto-columns: 100%;
+    }
+
+    .container_dinosaure_list > h1 {
+        font-size: 2rem;
+    }
+
+    .icon_F_L > h1 {
+      font-size: 2rem;
+    }
+  
+    .bar {
+        stroke-width: 3;
+    }
+
+    #search {
+        grid-template:
+          "search" 26px
+          / 180px;
+    }
+
+    .select_dinosaure {
+        padding: 0.5rem 1rem;
+        font-size: 1em;
+    }
+
+    .cadreC {
+      padding: 0 1%;
+    }
+
+    .contenair_anecdote > h2 {
+        font-size: 1.3rem;
+    }
+
+    .anecdote_l_text > h3 {
+      font-size: 1rem;
+    }
+
+    .anecdote_l_text > p {
+      font-size: 0.8rem;
+    }
+
+    footer div p {
+        font-size: 0.8rem;
+    }
+
+  #img_logo {
+    left: 40vw;
+    width: 50%;
+    height: 30%;
+    top: 5%;
+  }
+}

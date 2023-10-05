@@ -1,11 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Css/page404.css" />
+    <link rel="stylesheet" href="Css/tablet.css" />
+    <link rel="stylesheet" href="Css/mobile.css">
     <link rel="shortcut icon" href="src/logo.png" type="image/x-icon" />
     <title>JuraWiki</title>
   </head>
-  <body></body>
+
+  <body>
+    <div class="accueil"></div>
+    <header>
+      <section class="container_header">
+        <nav id="nav">
+          <div class="banniere">
+            <ul class="container_menu">
+              <li class="liste button"><a href="index.html#list_dino">Liste</a></li>
+              <li class="histoire button"><a href="page404.html">Histoire</a></li>  
+              <li class="portfolio button"><a href="page404.html">Portfolio</a></li>
+              <li class="apropos button"><a href="page404.html">À propos</a></li>
+              <li class="button loginM"><a href="page404.html">Login</a></li>
+              <li class="button forumM"><a href="page404.html">Forum</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div id="menuBurger" class="menuBurger" >
+          <img id="btnBurger" src="src/menuB.png" alt="icon burger">
+          <img id="btnCroix" class="btnActive" src="src/croixB.png" alt="icon croix">
+        </div>
+        <div id="container_img_logo">
+          <a href="index.html"><img id="img_logo" src="src/logo.png" alt="logo de JuraWiki" /></a>
+        </div>
+      </section>
+    </header>
+    <section class="icon_F_L">
+      <div class="icon">
+        <a href="page404.html"><img class="iForum" src="src/forum.png" alt="icone du lien furum" /></a>
+      </div>
+      <h1>Il semblerait que cette page soit en cours d'extinction ... (Erreur 404)</h1>
+      <div class="icon">
+        <a href="page404.html"><img class="iLogin" src="src/login.png" alt="icone du login" /></a>
+      </div>
+    </section>
+    <footer>
+      <div id="icon_footer">
+        <a target="_blank" href="https://twitter.com/"><img src="https://i.goopics.net/47wbs3.jpg" class="lien-icone"></a>
+        <a target="_blank" href="https://www.instagram.com/"><img src="https://i.goopics.net/d7mzyn.png"
+            class="lien-icone"></a>
+      </div>
+      <div id="footer_left">
+        <div id="icon_logo">
+          <a href="index.html"><img src="https://i.goopics.net/8mx4yb.png" class="lien-icone"></a>
+        </div>
+        <p>Team ScriptAttitude</p>
+      </div>
+    </footer>
+    <script src="JavaScript/script.js" type="module"></script>
+    <script src="JavaScript/menuBurger.js" type="module"></script>
+  </body>
 </html>
