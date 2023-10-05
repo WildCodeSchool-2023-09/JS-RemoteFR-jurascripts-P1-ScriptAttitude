@@ -41,15 +41,11 @@
     }
 
     .contenair_anecdote > h2 {
-        font-size: 1.3rem;
+      font-size: 2rem;
     }
 
-    .anecdote_l_text > h3 {
-      font-size: 1rem;
-    }
-
-    .anecdote_l_text > p {
-      font-size: 0.8rem;
+    #slider {
+      width: 100%;
     }
 
     footer div p {
@@ -61,5 +57,8 @@
     width: 50%;
     height: 30%;
     top: 5%;
+  }
+  .loader .lettre {
+    font-size:medium;
   }
 }

@@ -23,7 +23,11 @@
 }
 
   .contenair_anecdote > h2 {
-    font-size: 1.8rem;
+    font-size: 2.3rem;
+  }
+
+  #slider {
+    width: 100%;
   }
 
   #slider > h3 {
@@ -114,5 +118,9 @@
 
   .cadreC {
     padding: 0 10%;
+  }
+
+  .loader .lettre {
+    font-size:medium;
   }
 }
