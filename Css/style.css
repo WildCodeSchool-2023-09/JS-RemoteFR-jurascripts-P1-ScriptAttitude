@@ -439,11 +439,13 @@ section.container_card_volant.hide {
 /* -----------------------------------------Anecdote ----------------------------------------------*/
 
 .contenair_anecdote {
-  width: 80%;
+  width: 100%;
   gap: 1rem;
+  margin: 0 auto;
   margin-top: 2rem;
   padding: 1rem;
   position: relative;
+  vertical-align: middle;
 }
 
 .contenair_anecdote h2 {
@@ -453,15 +455,8 @@ section.container_card_volant.hide {
   font-size: var(--font-size);
   -webkit-text-stroke: #c3ffb4e9;
   -webkit-text-stroke-width: 2px;
-<<<<<<< HEAD
   margin: 0 auto;
   text-align: center;
-=======
-  margin-left: auto;
-  margin-right: auto;
-  width: 5rem;
-
->>>>>>> parent of 794e7ca (final update 1.0.0)
 }
 
 .contenair_anecdote h3 {
@@ -483,31 +478,51 @@ section.container_card_volant.hide {
   font-style: italic;
 }
 
+#slider {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  /* gap: 15px; */
+}
+
+#controle_container {
+  display: flex;
+}
 
 #precedent,
 #suivant {
-  height: 3rem;
-  width: 3rem;
+  height: 50px;
+  width: 50px;
+  padding: 10px;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: var(--primaryColor);
   color: rgba(0, 0, 0, 0.8);
   text-align: center;
-  line-height: 3rem;
-  border-radius: 3rem;
+  /* line-height: 50px; */
+  border-radius: 50px;
   box-shadow: var(--boxShadow);
-  box-shadow: var(--boxShadowtext);
+  background: var(--linear-gradient);
+  border: rgb(0, 0, 0) solid 1px;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  margin: 0 10;
 }
 
 #slide-anecdote {
   margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
   padding: 1rem;
   box-shadow: var(--boxShadow);
   border-radius: var(--border-radius);
   background-color: var(--background-color-cads);
   border: rgb(0, 0, 0) solid 5px;
-  width: 80%;
-  margin: auto;
-  height: 4%;
 }
 
 /* ------------------------------- Footer  ----------------------------------------------- */
@@ -517,6 +532,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 3rem;
 }
 
 #icon_footer {
@@ -1005,44 +1021,3 @@ footer div p {
 }
 
 /* audio youtube rexy montero merci */
-
-#slider {
-  position: relative;
-  width: 1200px;
-  margin: auto;
-  display: flex;
-  gap: 15px;
-}
-
-#precedent,
-#suivant {
-  height: 3rem;
-  width: 3rem;
-  cursor: pointer;
-  background: var(--primaryColor);
-  color: rgba(0, 0, 0, 0.8);
-  text-align: center;
-  line-height: 3rem;
-  border-radius: 3rem;
-  box-shadow: var(--boxShadow);
-  box-shadow: var(--boxShadowtext);
-}
-
-#precedent {
- margin-left: 5rem;
-}
-
-#suivant{
-  margin-left: 83rem;
-}
-
-#slide-anecdote {
-  margin-top: 3rem;
-  display: flex;
-  flex-direction: column;
-  padding: 1rem;
-  box-shadow: var(--boxShadow);
-  border-radius: var(--border-radius);
-  background-color: var(--background-color-cads);
-  border: rgb(0, 0, 0) solid 5px;
-}
