@@ -14,16 +14,22 @@
     <div class="accueil"></div>
     <header>
       <section class="container_header">
-        <nav>
+        <nav id="nav">
           <div class="banniere">
             <ul class="container_menu">
               <li class="liste button"><a href="index.html#list_dino">Liste</a></li>
               <li class="histoire button"><a href="page404.html">Histoire</a></li>  
               <li class="portfolio button"><a href="page404.html">Portfolio</a></li>
               <li class="apropos button"><a href="page404.html">À propos</a></li>
+              <li class="button loginM"><a href="page404.html">Login</a></li>
+              <li class="button forumM"><a href="page404.html">Forum</a></li>
             </ul>
           </div>
         </nav>
+        <div id="menuBurger" class="menuBurger" >
+          <img id="btnBurger" src="src/menuB.png" alt="icon burger">
+          <img id="btnCroix" class="btnActive" src="src/croixB.png" alt="icon croix">
+        </div>
         <div id="container_img_logo">
           <a href="index.html"><img id="img_logo" src="src/logo.png" alt="logo de JuraWiki" /></a>
         </div>
@@ -52,5 +58,6 @@
       </div>
     </footer>
     <script src="JavaScript/script.js" type="module"></script>
+    <script src="JavaScript/menuBurger.js" type="module"></script>
   </body>
 </html>

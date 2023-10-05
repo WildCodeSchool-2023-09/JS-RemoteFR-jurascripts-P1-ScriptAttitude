@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="tablet.css" />
   <link rel="stylesheet" href="mobile.css">
   <link rel="shortcut icon" href="src/logo.png" type="image/x-icon" />
-  <script src="JavaScript/slider-anecdote.js" defer></script>
   <title>JuraWiki</title>
 </head>
 
@@ -63,18 +62,18 @@
         <div id="search">
           <svg viewBox="0 0 420 60" xmlns="http://www.w3.org/2000/svg">
             <rect class="bar" />
-
+            
             <g class="magnifier">
               <circle class="glass" />
               <line class="handle" x1="32" y1="32" x2="44" y2="44"></line>
             </g>
-
+            
             <g class="sparks">
               <circle class="spark" />
               <circle class="spark" />
               <circle class="spark" />
             </g>
-
+            
             <g class="burst pattern-one">
               <circle class="particle circle" />
               <path class="particle triangle" />
@@ -102,9 +101,9 @@
           </svg>
           <input type=search name=q aria-label="Search for inspiration" />
         </div>
-
+        
         <div id="results">
-
+          
         </div>
       </section>
       <section class="container_primary_selection">
@@ -113,7 +112,7 @@
           <option value="Carnivores">Carnivore</option>
           <option value="Herbivores">Herbivore</option>
         </select>
-        <select class="select_dinosaure ">
+        <select class="select_dinosaure">
           <option value="all">Sélectionnez un type de Dinosaures</option>
           <option value="terrestre">Terrestre</option>
           <option value="Aquatique">Aquatique</option>
@@ -129,30 +128,31 @@
       <section class="container_nav_card">
         <button class="nav_card_l" id="btnLeftC">
           &lt;&lt;</button>
-
-            <button class="nav_card_r" id="btnRightC"> >> </button>
-      </section>
-      <section class="contenair_anecdote">
-        <h2>Anecdotes</h2>
-        <div id="slider" class="contenair_anecdote"></div>
-        <div id="precedent" onclick="ChangeSlide(true)"> &lt; </div>
+          
+          <button class="nav_card_r" id="btnRightC"> >> </button>
+        </section>
+        <section class="contenair_anecdote">
+          <h2>Anecdotes</h2>
+          <div id="slider" class="contenair_anecdote"></div>
+          <div id="precedent" onclick="ChangeSlide(true)"> &lt; </div>
           <div id="suivant" onclick="ChangeSlide(false)"> &gt; </div>
-    </section>
-  </main>
-  <footer>
-    <div id="icon_footer">
-      <a target="_blank" href="https://twitter.com/"><img src="https://i.goopics.net/47wbs3.jpg" class="lien-icone"></a>
-      <a target="_blank" href="https://www.instagram.com/"><img src="https://i.goopics.net/d7mzyn.png"
-          class="lien-icone"></a>
-    </div>
-    <div id="footer_left">
-      <div id="icon_logo">
-        <a href="index.html"><img src="https://i.goopics.net/8mx4yb.png" class="lien-icone"></a>
-      </div>
-      <p>Team ScriptAttitude</p>
-    </div>
-  </footer>
-  <script src="JavaScript/script.js" type="module"></script>
+        </section>
+      </main>
+      <footer>
+        <div id="icon_footer">
+          <a target="_blank" href="https://twitter.com/"><img src="https://i.goopics.net/47wbs3.jpg" class="lien-icone"></a>
+          <a target="_blank" href="https://www.instagram.com/"><img src="https://i.goopics.net/d7mzyn.png"
+            class="lien-icone"></a>
+          </div>
+          <div id="footer_left">
+            <div id="icon_logo">
+              <a href="index.html"><img src="https://i.goopics.net/8mx4yb.png" class="lien-icone"></a>
+            </div>
+            <p>Team ScriptAttitude</p>
+          </div>
+        </footer>
+        <script src="JavaScript/script.js" type="module"></script>
+        <script src="JavaScript/slider-anecdote.js" defer></script>
 </body>
 
 </html>

@@ -103,9 +103,10 @@
     flex-direction: column;
     align-items: center;
   }
+
   .select_dinosaure {
-    width: 99%;
-    font-size: 0.8rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    font-size: 1.5em;
     text-align: center;
   }
 

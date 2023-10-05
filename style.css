@@ -131,10 +131,18 @@ body {
   width: clamp(30px, 5vw, 60px);
 }
 
+.iLogin:hover {
+  width: 60px;
+}
+
 .icon .iForum {
   width: 60px;
   z-index: 1;
   width: clamp(30px, 5vw, 60px);
+}
+
+.iForum:hover {
+  width: 60px;
 }
 
 /*---------------------- nav-------------------------------- */
