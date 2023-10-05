@@ -1,6 +1,6 @@
 const anecdoteDino = [
     {
-      titre: "Le premier Dinosaure trouvé :",
+      titre: "Le premier Dinosaure touvé :",
       image:"https://i.goopics.net/ixk4d8.png",
       anecdote:`Le tout premier Dinosaure découvert est attribué l'Anglais
       William Buckland qui a surpris tout le monde en 1815 en disant qu'il

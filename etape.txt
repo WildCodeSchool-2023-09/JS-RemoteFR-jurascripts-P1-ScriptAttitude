@@ -1,20 +1,5 @@
 
-
-2- login menu forum  hover zoom
-
-4-js categorie type 
-
-
-
-6- carrousel anecdote
-
 7-refaire footer
-
-------------------------
-
-1- responsive bar nav menu burger
-
-
 
 
 3-dernier reglage 

@@ -4,11 +4,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="tablet.css" />
-  <link rel="stylesheet" href="mobile.css">
+  <link rel="stylesheet" href="Css/style.css" />
+  <link rel="stylesheet" href="Css/tablet.css" />
+  <link rel="stylesheet" href="Css/mobile.css">
   <link rel="shortcut icon" href="src/logo.png" type="image/x-icon" />
-  <script src="JavaScript/slider-anecdote.js" defer></script>
   <title>JuraWiki</title>
 </head>
 
@@ -108,16 +107,16 @@
         </div>
       </section>
       <section class="container_primary_selection">
-        <select class="select_dinosaure diet">
+        <select id="selectP" class="select_dinosaure diet">
           <option value="all">Sélectionnez une catégorie de Dinosaures</option>
-          <option value="Carnivores">Carnivore</option>
-          <option value="Herbivores">Herbivore</option>
+          <option value="carnivore">Carnivore</option>
+          <option value="herbivore">Herbivore</option>
         </select>
-        <select class="select_dinosaure ">
+        <select id="selectS" class="select_dinosaure">
           <option value="all">Sélectionnez un type de Dinosaures</option>
           <option value="terrestre">Terrestre</option>
-          <option value="Aquatique">Aquatique</option>
-          <option value="Volant">Volant</option>
+          <option value="aquatique">Aquatique</option>
+          <option value="volant">Volant</option>
         </select>
       </section>
       <div class="cadreC">
@@ -134,7 +133,14 @@
       </section>
       <section class="contenair_anecdote">
         <h2>Anecdotes</h2>
-        <div id="slider" class="contenair_anecdote"></div>
+        <div id="slider" class="contenair_anecdote">
+          `<div id="slide-anecdote"><img src="https://i.goopics.net/ixk4d8.png" alt="un Megalosaurus">
+    <h3>Le premier Dinosaure touvé :</h3>
+    <p>Le tout premier Dinosaure découvert est attribué l'Anglais
+      William Buckland qui a surpris tout le monde en 1815 en disant qu'il
+      avait trouvé, en Angleterre près d'Oxford, le fossile d'un reptile
+      géant. Il lui donna le nom scientifique de Megalosaurus en 1824.</p></div>`
+        </div>
         <div id="precedent" onclick="ChangeSlide(true)"> &lt; </div>
           <div id="suivant" onclick="ChangeSlide(false)"> &gt; </div>
     </section>
@@ -153,6 +159,7 @@
     </div>
   </footer>
   <script src="JavaScript/script.js" type="module"></script>
+  <script src="JavaScript/slider-anecdote.js" defer></script>
 </body>
 
 </html>
