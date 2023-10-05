@@ -9,8 +9,8 @@ const loader = document.querySelector(".loader");
 createDinosaureCard();
 dragging();
 
- loading;
- window.addEventListener("load", () => {
+// loading;
+window.addEventListener("load", () => {
    loader.classList.add("fondu-out");
    setTimeout(() => {
      loader.classList.add("end-animation");
