@@ -1,49 +1,38 @@
 @media screen and (max-width: 950px) {
-
   .container_dinosaure_list > h1 {
     font-size: 2.5rem;
-}
+  }
 
-#logo_tablet {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  left: clamp(80%, 50%, 50%);
-  width: clamp(10rem, 25vw, 40rem);
-}
+  #logo_tablet {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: clamp(80%, 50%, 50%);
+    width: clamp(10rem, 25vw, 40rem);
+  }
 
-#container_img_logo {
-  display: none;
-}
+  #img_logo_tablet {
+    height: 10rem;
+    width: 10rem;
+  }
 
-#img_logo {
-  display: none;
-}
+  .icon_F_L > h1 {
+    font-size: 2.5rem;
+  }
 
+  .bar {
+    stroke-width: 4;
+  }
 
-#img_logo_tablet {
-  height: 10rem;
-  width: 10rem;
+  #search {
+    grid-template:
+      "search" 35px
+      / 230px;
+  }
 
-}
-
-.icon_F_L > h1 {
-  font-size: 2.5rem;
-}
-
-.bar {
-  stroke-width: 4;
-}
-
-#search {
-  grid-template:
-    "search" 35px
-    / 230px;
-}
-
-#search input {
-  font: 18px/1 system-ui, sans-serif;
-}
+  #search input {
+    font: 18px/1 system-ui, sans-serif;
+  }
 
   .contenair_anecdote > h2 {
     font-size: 2.3rem;
@@ -62,7 +51,7 @@
   }
 
   footer div p {
-      font-size: 0.9rem;
+    font-size: 0.9rem;
   }
   .loginM {
     display: block;
@@ -144,6 +133,6 @@
   }
 
   .loader .lettre {
-    font-size:medium;
+    font-size: medium;
   }
 }
