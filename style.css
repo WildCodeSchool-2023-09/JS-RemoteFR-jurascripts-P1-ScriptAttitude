@@ -158,6 +158,7 @@ a:hover {
 
 /* -----------------------------h1 dinosaure_list------------------------------ */
 .container_dinosaure_list > h1 {
+  font-family: var(--font-family);
   font-size: var(--font-size);
   color: var(--primaryColor);
   -webkit-text-stroke: #c3ffb4e9;
@@ -415,24 +416,32 @@ section.container_card_volant.hide {
 /* -----------------------------------------Anecdote ----------------------------------------------*/
 
 .contenair_anecdote {
-  display: flex;
   width: 80%;
-  flex-direction: column;
-  border-radius: 1rem;
-  margin: auto;
   gap: 1rem;
-  margin-bottom: 2rem;
-}
-
-.contenair_anecdote > h2 {
-  font-family: var(--font-family);
-  font-size: 2rem;
-  color: var(--primaryColor);
-  -webkit-text-stroke: #c3ffb4e9;
-  -webkit-text-stroke-width: 1px;
   margin-top: 2rem;
+  padding: 1rem;
+  position: relative;
 }
 
+.contenair_anecdote h2 {
+  font-family: var(--font-family);
+  color: var(--primaryColor);
+  margin-top: 2rem;
+  font-size: var(--font-size);
+  -webkit-text-stroke: #c3ffb4e9;
+  -webkit-text-stroke-width: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5rem;
+
+}
+
+.contenair_anecdote h3 {
+  font-family: var(--font-family);
+  padding: 0.5rem;
+  text-align: left;
+  text-decoration: underline;
+}
 .contenair_anecdote img {
   padding: 0.5rem;
   border-radius: var(--border-radius);
@@ -440,47 +449,7 @@ section.container_card_volant.hide {
   width: 150px;
 }
 
-.anecdote_l {
-  display: flex;
-  flex-direction: row;
-  padding: 1rem;
-  box-shadow: var(--boxShadow);
-  border-radius: var(--border-radius);
-  background-color: var(--background-color-cads);
-  border: rgb(0, 0, 0) solid 5px;
-}
-
-.anecdote_l_text h3 {
-  font-family: var(--font-family);
-  padding: 0.5rem;
-  text-align: left;
-  text-decoration: underline;
-}
-
-.anecdote_l_text p {
-  font-family: var(--font-family-p);
-  padding: 1rem;
-  font-style: italic;
-}
-
-.anecdote_r {
-  display: flex;
-  flex-direction: row-reverse;
-  padding: 1rem;
-  box-shadow: var(--boxShadow);
-  border-radius: var(--border-radius);
-  background-color: var(--background-color-cads);
-  border: rgb(0, 0, 0) solid 5px;
-}
-
-.anecdote_r_text h3 {
-  font-family: var(--font-family);
-  padding: 0.5rem;
-  text-align: left;
-  text-decoration: underline;
-}
-
-.anecdote_r_text p {
+.contenair_anecdote p {
   font-family: var(--font-family-p);
   padding: 1rem;
   font-style: italic;
@@ -980,3 +949,44 @@ footer ul li {
 }
 
 /* audio youtube rexy montero merci */
+
+#slider {
+  position: relative;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 15px;
+}
+
+#precedent,
+#suivant {
+  height: 3rem;
+  width: 3rem;
+  cursor: pointer;
+  background: var(--primaryColor);
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  line-height: 3rem;
+  border-radius: 3rem;
+  box-shadow: var(--boxShadow);
+  box-shadow: var(--boxShadowtext);
+}
+
+#precedent {
+ margin-left: 5rem;
+}
+
+#suivant{
+  margin-left: 83rem;
+}
+
+#slide-anecdote {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  box-shadow: var(--boxShadow);
+  border-radius: var(--border-radius);
+  background-color: var(--background-color-cads);
+  border: rgb(0, 0, 0) solid 5px;
+}
