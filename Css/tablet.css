@@ -18,6 +18,10 @@
     / 230px;
 }
 
+#search input {
+  font: 18px/1 system-ui, sans-serif;
+}
+
   .contenair_anecdote > h2 {
     font-size: 1.8rem;
   }
@@ -96,12 +100,6 @@
 
   .btnActive {
     left: -100%;
-  }
-
-  .container_primary_selection {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 
   .select_dinosaure {

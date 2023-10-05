@@ -107,7 +107,7 @@ body {
 
 /* ----------------------------login et forum ------------------------------*/
 .icon_F_L {
-  background-image: url(src/fond_nav.png);
+  background-image: url(../src/fond_nav.png);
   background-size: 100% 100%;
   height: 40vh;
   width: 100%;
@@ -126,23 +126,25 @@ body {
 }
 
 .icon .iLogin {
-  width: 60px;
+  width: 50px;
   z-index: 1;
-  width: clamp(30px, 5vw, 60px);
+  width: clamp(30px, 4vw, 50px);
 }
 
 .iLogin:hover {
-  width: 60px;
+  width: 90px;
+  width: clamp(60px, 5vw, 90px);
 }
 
 .icon .iForum {
-  width: 60px;
+  width: 50px;
   z-index: 1;
-  width: clamp(30px, 5vw, 60px);
+  width: clamp(30px, 4vw, 50px);
 }
 
 .iForum:hover {
-  width: 60px;
+  width: 90px;
+  width: clamp(60px, 5vw, 90px);
 }
 
 /*---------------------- nav-------------------------------- */
@@ -877,8 +879,8 @@ footer div p {
 }
 
 /* loading ... prasanna --------------------------------------- */
-/* 
-.loader {
+
+/*.loader {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -960,7 +962,7 @@ footer div p {
 
 .end-animation {
   display: none;
-} */
+}*/
 
 /* audio youtube rexy montero merci */
 

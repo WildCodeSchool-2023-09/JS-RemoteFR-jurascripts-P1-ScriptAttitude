@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     .wrapper .container_card {
       grid-auto-columns: 100%;
     }
@@ -19,6 +19,16 @@
         grid-template:
           "search" 26px
           / 180px;
+    }
+
+    #search input {
+      font: 10px/1 system-ui, sans-serif;
+    }
+
+    .container_primary_selection {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     .select_dinosaure {
