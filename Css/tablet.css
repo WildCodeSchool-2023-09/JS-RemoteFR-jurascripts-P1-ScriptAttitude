@@ -4,6 +4,29 @@
     font-size: 2.5rem;
 }
 
+#logo_tablet {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  left: clamp(80%, 50%, 50%);
+  width: clamp(10rem, 25vw, 40rem);
+}
+
+#container_img_logo {
+  display: none;
+}
+
+#img_logo {
+  display: none;
+}
+
+
+#img_logo_tablet {
+  height: 10rem;
+  width: 10rem;
+
+}
+
 .icon_F_L > h1 {
   font-size: 2.5rem;
 }
