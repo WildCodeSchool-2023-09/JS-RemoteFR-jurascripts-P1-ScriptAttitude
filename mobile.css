@@ -68,6 +68,8 @@
     align-items: center;
   }
   .select_dinosaure {
+    width: 99%;
+    font-size: 0.8rem;
     text-align: center;
   }
 
@@ -84,11 +86,16 @@
   .wrapper .container_card {
     grid-auto-columns: 100%;
   }
+
   #img_logo {
     left: 40vw;
-    width: 70%;
+    width: 50%;
     height: 30%;
     top: 5%;
+  }
+
+  .select_dinosaure {
+    padding: 0.5rem 1rem;
   }
 
   .cadreC {
