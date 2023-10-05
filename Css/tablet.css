@@ -3,7 +3,7 @@
     font-size: 2.5rem;
   }
 
-  #logo_tablet {
+  .container_img_logo {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -11,9 +11,9 @@
     width: clamp(10rem, 25vw, 40rem);
   }
 
-  #img_logo_tablet {
-    height: 10rem;
-    width: 10rem;
+  #img_logo {
+    height: 15rem;
+    width: 20rem;
   }
 
   .icon_F_L > h1 {
