@@ -439,13 +439,11 @@ section.container_card_volant.hide {
 /* -----------------------------------------Anecdote ----------------------------------------------*/
 
 .contenair_anecdote {
-  width: 100%;
+  width: 80%;
   gap: 1rem;
-  margin: 0 auto;
   margin-top: 2rem;
   padding: 1rem;
   position: relative;
-  vertical-align: middle;
 }
 
 .contenair_anecdote h2 {
@@ -455,8 +453,15 @@ section.container_card_volant.hide {
   font-size: var(--font-size);
   -webkit-text-stroke: #c3ffb4e9;
   -webkit-text-stroke-width: 2px;
+<<<<<<< HEAD
   margin: 0 auto;
   text-align: center;
+=======
+  margin-left: auto;
+  margin-right: auto;
+  width: 5rem;
+
+>>>>>>> parent of 794e7ca (final update 1.0.0)
 }
 
 .contenair_anecdote h3 {
@@ -512,7 +517,6 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 3rem;
 }
 
 #icon_footer {
@@ -1004,38 +1008,32 @@ footer div p {
 
 #slider {
   position: relative;
-  width: 80%;
+  width: 1200px;
   margin: auto;
   display: flex;
-  align-items: center;
-  /* gap: 15px; */
-}
-
-#controle_container {
-  display: flex;
+  gap: 15px;
 }
 
 #precedent,
 #suivant {
-  height: 50px;
-  width: 50px;
-  padding: 10px;
+  height: 3rem;
+  width: 3rem;
   cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background: var(--primaryColor);
   color: rgba(0, 0, 0, 0.8);
   text-align: center;
-  /* line-height: 50px; */
-  border-radius: 50px;
+  line-height: 3rem;
+  border-radius: 3rem;
   box-shadow: var(--boxShadow);
-  background: var(--linear-gradient);
-  border: rgb(0, 0, 0) solid 1px;
-  -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10 and IE 11 */
-  user-select: none; /* Standard syntax */
-  margin: 0 10;
+  box-shadow: var(--boxShadowtext);
+}
+
+#precedent {
+ margin-left: 5rem;
+}
+
+#suivant{
+  margin-left: 83rem;
 }
 
 #slide-anecdote {
