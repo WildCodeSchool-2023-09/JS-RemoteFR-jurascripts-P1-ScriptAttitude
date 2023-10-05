@@ -52,6 +52,7 @@ body {
 .apropos {
   grid-column: 7/8;
 }
+
 .button {
   background-color: #105f1e;
   border-radius: 10px;
@@ -60,7 +61,8 @@ body {
   text-align: center;
   font-size: 18px;
   padding: 12px;
-  width: 200px;
+  height: 3.2rem;
+  width: 10rem;
   cursor: pointer;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -74,7 +76,7 @@ body {
   box-shadow: 10px 5px 5px #105f1e;
   color: #105f1e;
   text-align: center;
-  font-size: 24px;
+  font-size: 21px;
 }
 
 /* --------------------logo ------------------------------*/
@@ -115,11 +117,13 @@ body {
 .icon .iLogin {
   width: 60px;
   z-index: 1;
+  width: clamp(30px, 5vw, 60px);
 }
 
 .icon .iForum {
   width: 60px;
   z-index: 1;
+  width: clamp(30px, 5vw, 60px);
 }
 
 /*---------------------- nav-------------------------------- */
@@ -477,6 +481,7 @@ footer {
 }
 
 #icon_footer {
+  margin-top: 0.1rem;
   margin-left: 1.5rem;
   display: flex;
   align-items: center;
@@ -489,15 +494,15 @@ footer {
   align-items: center;
 }
 
-footer ul {
+#footer_left {
   display: flex;
   align-items: center;
   gap: 0.3rem;
   margin-right: 1rem;
 }
 
-footer ul li {
-  list-style: none;
+footer div p {
+  font-family: var(--font-family-p);
 }
 
 /* -------------------------Search Bar---------------------------------------- */

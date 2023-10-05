@@ -2,8 +2,6 @@
 
 2- login menu forum  hover zoom
 
-3-regler logo
-
 4-js categorie type 
 
 
