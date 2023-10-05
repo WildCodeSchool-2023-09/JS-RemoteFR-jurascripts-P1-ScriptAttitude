@@ -8,7 +8,6 @@ const dinosauresList = [
     diet: "carnivore",
     attribut: "terrestre",
     cri: "src/asset/sound_Allosaurus.mp3",
-    id: "cardslide",
   },
   {
     name: "Ankylosaurus",

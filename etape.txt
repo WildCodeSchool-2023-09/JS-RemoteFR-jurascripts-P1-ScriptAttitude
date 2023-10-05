@@ -14,7 +14,7 @@
 
 1- responsive bar nav menu burger
 
-2- responsive categorie type 
+
 
 
 3-dernier reglage 

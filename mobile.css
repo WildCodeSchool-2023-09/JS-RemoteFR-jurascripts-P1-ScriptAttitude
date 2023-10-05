@@ -22,7 +22,7 @@
     }
 
     .select_dinosaure {
-        padding: 0.5rem 1rem 0.5rem 1rem;
+        padding: 0.5rem 1rem;
         font-size: 1em;
     }
 
@@ -46,4 +46,10 @@
         font-size: 0.8rem;
     }
 
+  #img_logo {
+    left: 40vw;
+    width: 50%;
+    height: 30%;
+    top: 5%;
   }
+}
