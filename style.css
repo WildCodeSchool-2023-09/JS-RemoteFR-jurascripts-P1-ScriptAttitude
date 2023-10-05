@@ -52,6 +52,13 @@ body {
 .apropos {
   grid-column: 7/8;
 }
+.loginM {
+  display: none;
+}
+.forumM {
+  display: none;
+}
+
 .button {
   background-color: #105f1e;
   border-radius: 10px;
@@ -66,6 +73,10 @@ body {
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+}
+
+#menuBurger img {
+  display: none;
 }
 
 .button:hover {
@@ -88,7 +99,8 @@ body {
   position: absolute;
   z-index: 1;
   top: 3vh;
-  left: 40%;
+  left: clamp(40%, 5%, 5%);
+  width: clamp(15rem, 25vw, 40rem);
 }
 
 /* ----------------------------login et forum ------------------------------*/
@@ -154,6 +166,13 @@ a:visited {
 a:hover {
   color: white;
   text-decoration: underline;
+}
+#menuBurger {
+  cursor: pointer;
+}
+#menuBurger img {
+  cursor: pointer;
+  width: 50px;
 }
 
 /* -----------------------------h1 dinosaure_list------------------------------ */
@@ -243,7 +262,9 @@ a:hover {
 }
 
 .c_card {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   border: rgb(0, 0, 0) solid 5px;
   border-radius: 1rem;
   box-shadow: var(--boxShadow);
@@ -270,26 +291,6 @@ a:hover {
   font-size: 0.8rem;
   font-family: var(--font-family-p);
   font-weight: 700;
-}
-
-@media screen and (max-width: 900px) {
-  .wrapper .container_card {
-    grid-auto-columns: calc(97% / 2);
-  }
-
-  .cadreC {
-    padding: 0 10%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .wrapper .container_card {
-    grid-auto-columns: 100%;
-  }
-
-  .cadreC {
-    padding: 0 1%;
-  }
 }
 
 /* -------------------------audio-------------------- */

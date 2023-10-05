@@ -1,3 +1,104 @@
-@media screen and (min-width:40rem){
+@media screen and (max-width: 950px) {
+  .loginM {
+    display: block;
+  }
+  .forumM {
+    display: block;
+  }
+  #img_logo {
+    left: 54vw;
+  }
 
-};
+  .container_menu {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    background: var(--secondColor);
+    text-align: center;
+    transition: 0.25s;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    top: 0.2%;
+    transition: 0.25s;
+    border: rgb(17, 180, 12) solid 3px;
+    left: -100%;
+  }
+  .activeB {
+    left: 0%;
+  }
+
+  .iForum {
+    display: none;
+  }
+  .iLogin {
+    display: none;
+  }
+  #menuBurger img {
+    display: block;
+    position: absolute;
+  }
+
+  #menuBurger {
+    cursor: pointer;
+    padding: 0.2rem 0.5rem;
+  }
+
+  .menuBurger img:first-child {
+    position: absolute;
+    cursor: pointer;
+    width: 60px;
+    height: 55px;
+    padding-top: 0.5rem;
+  }
+  .menuBurger img:last-child {
+    position: absolute;
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+    padding-top: 0.9rem;
+  }
+
+  .btnActive {
+    left: -100%;
+  }
+
+  .container_primary_selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .select_dinosaure {
+    width: 99%;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .wrapper .container_card {
+    grid-auto-columns: calc(97% / 2);
+  }
+
+  .cadreC {
+    padding: 0 10%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper .container_card {
+    grid-auto-columns: 100%;
+  }
+
+  #img_logo {
+    left: 40vw;
+    width: 50%;
+    height: 30%;
+    top: 5%;
+  }
+
+  .select_dinosaure {
+    padding: 0.5rem 1rem;
+  }
+
+  .cadreC {
+    padding: 0 1%;
+  }
+}

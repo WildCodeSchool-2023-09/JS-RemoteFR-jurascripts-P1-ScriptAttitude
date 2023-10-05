@@ -45,13 +45,16 @@ const createDinosaureCard = () => {
         dinosauresList[i].diet.toLowerCase().includes(search)
       ) {
         dinoArray.push(`<div class="c_card"  draggable="false">
-          <img class="imgAllosaurus" src="${dinosauresList[i].image}" alt="un dinosaure" />
+        <div>  
+        <img class="imgAllosaurus" src="${dinosauresList[i].image}" alt="un dinosaure" />
           <p>Nom: ${dinosauresList[i].name} </p>
           <p>Type: ${dinosauresList[i].attribut}</p>
           <p>Régime: ${dinosauresList[i].diet}</p>
           <p>Description: <i>${dinosauresList[i].description}</i></p> 
+          </div>
+          <div>
            <audio id="volume" controls><source  src="${dinosauresList[i].cri}" type="audio/mp3"> </audio>
-          
+          </div>
           </div>`);
       }
     }
