@@ -8,7 +8,7 @@
   position: absolute;
   display: flex;
   justify-content: center;
-  left: clamp(80%, 50%, 50%);
+  left: clamp(70%, 50%, 50%);
   width: clamp(10rem, 25vw, 40rem);
 }
 
@@ -22,8 +22,8 @@
 
 
 #img_logo_tablet {
-  height: 10rem;
-  width: 10rem;
+  height: 15rem;
+  width: 18rem;
 
 }
 
@@ -125,9 +125,15 @@
     left: -100%;
   }
 
+  .container_primary_selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .select_dinosaure {
-    padding: 0.5rem 2rem 0.5rem 2rem;
-    font-size: 1.5em;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    font-size: 2em;
     text-align: center;
   }
 
@@ -138,4 +144,8 @@
   .cadreC {
     padding: 0 10%;
   }
+}
+
+.loader .lettre {
+  font-size: medium;
 }

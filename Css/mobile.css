@@ -1,88 +1,87 @@
 @media screen and (max-width: 650px) {
-    .wrapper .container_card {
-      grid-auto-columns: 100%;
-    }
+  .wrapper .container_card {
+    grid-auto-columns: 100%;
+  }
 
-    .container_dinosaure_list > h1 {
-        font-size: 2rem;
-    }
+  .container_dinosaure_list > h1 {
+    font-size: 2rem;
+  }
 
-    #logo_mobile {
-      position: absolute;
-      display: flex;
-      justify-content: center;
-      left: clamp(80%, 50%, 50%);
-      width: clamp(7rem, 25vw, 40rem);
-    }
-    
-    #img_logo_tablet {
-      display: none;
-    }
-    
-    #img_tablet {
-      display: none;
-    }
-    
-    
-    #img_logo_mobile {
-      height: 7rem;
-      width: 7rem;
-    
-    }
+  #logo_mobile {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: clamp(60%, 50%, 50%);
+    width: clamp(7rem, 25vw, 40rem);
+  }
 
-    .icon_F_L > h1 {
-      font-size: 2rem;
-    }
-  
-    .bar {
-        stroke-width: 3;
-    }
+  #img_logo_tablet {
+    display: none;
+  }
 
-    #search {
-        grid-template:
-          "search" 26px
-          / 180px;
-    }
+  #img_tablet {
+    display: none;
+  }
 
-    #search input {
-      font: 10px/1 system-ui, sans-serif;
-    }
 
-    .container_primary_selection {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
+  #img_logo_mobile {
+    height: 14rem;
+    width: 16rem;
 
-    .select_dinosaure {
-        padding: 0.5rem 1rem;
-        font-size: 1em;
-    }
+  }
 
-    .cadreC {
-      padding: 0 1%;
-    }
+  .icon_F_L > h1 {
+    font-size: 2rem;
+  }
 
-    .contenair_anecdote > h2 {
-        font-size: 1.3rem;
-    }
+  .bar {
+    stroke-width: 3;
+  }
 
-    .anecdote_l_text > h3 {
-      font-size: 1rem;
-    }
+  #search {
+    grid-template:
+      "search" 26px
+      / 180px;
+  }
 
-    .anecdote_l_text > p {
-      font-size: 0.8rem;
-    }
+  #search input {
+    font: 10px/1 system-ui, sans-serif;
+  }
 
-    footer div p {
-        font-size: 0.8rem;
-    }
+  .container_primary_selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .select_dinosaure {
+    padding: 0.5rem 1rem;
+    font-size: 1.5em;
+  }
+
+  .cadreC {
+    padding: 0 1%;
+  }
+
+  .contenair_anecdote > h2 {
+    font-size: 2rem;
+  }
+
+  #slider {
+    width: 100%;
+  }
+
+  footer div p {
+    font-size: 0.8rem;
+  }
 
   #img_logo {
     left: 40vw;
     width: 50%;
     height: 30%;
     top: 5%;
+  }
+  .loader .lettre {
+    font-size: medium;
   }
 }
