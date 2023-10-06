@@ -1,1 +1,5 @@
-# On est les meilleur lets goo.
+Groupe Jurascript :
+- Alexandre
+- Nelson
+- Prasanna
+- Xavier
