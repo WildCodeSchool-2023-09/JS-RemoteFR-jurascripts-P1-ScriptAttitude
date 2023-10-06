@@ -523,7 +523,6 @@ section.container_card_volant.hide {
   border: rgb(0, 0, 0) solid 5px;
 }
 
-
 /* ------------------------------- Footer  ----------------------------------------------- */
 
 footer {
@@ -1020,3 +1019,14 @@ footer div p {
 }
 
 /* audio youtube rexy montero merci */
+
+@media screen and (min-width: 1500px) {
+  #img_logo {
+    height: 18rem;
+    position: absolute;
+    z-index: 1;
+    top: 3vh;
+    left: clamp(40%, 5%, 5%);
+    width: clamp(15rem, 25vw, 40rem);
+  }
+}
