@@ -97,7 +97,7 @@ body {
 }
 
 #logo_tablet {
-display: none;
+  display: none;
 }
 
 #logo_mobile {
@@ -267,13 +267,13 @@ a:hover {
   scrollbar-width: none;
   scrollbar-color: #f2f2f2 #00ad12;
 }
-.container_card:-webkit-scrollbar {
+.container_card::-webkit-scrollbar {
   width: 14px;
 }
-.container_card:-webkit-scrollbar-track {
+.container_card::-webkit-scrollbar-track {
   background: #00ad12;
 }
-.container_card:-webkit-scrollbar-thumb {
+.container_card::-webkit-scrollbar-thumb {
   background-color: #f2f2f2;
   border-radius: 50px;
   border: 2px ridge #000000;
